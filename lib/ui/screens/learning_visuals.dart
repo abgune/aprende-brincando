@@ -60,6 +60,13 @@ class _ShapePainter extends CustomPainter {
       canvas.drawOval(const Rect.fromLTWH(20, 1, 16, 8), p);
     } else if (shape == 'circle') {
       canvas.drawOval(rect, p);
+    } else if (shape == 'rectangle') {
+      canvas.drawRect(Rect.fromLTWH(3, 12, size.width - 6, 20), p);
+    } else if (shape == 'mango') {
+      p.color = const Color(0xFFF2B638);
+      canvas.drawOval(const Rect.fromLTWH(7, 8, 29, 31), p);
+      p.color = green;
+      canvas.drawOval(const Rect.fromLTWH(24, 2, 15, 9), p);
     } else if (shape == 'square') {
       canvas.drawRect(rect, p);
     } else {
@@ -194,6 +201,8 @@ class ExercisePicture extends StatelessWidget {
   final int index;
   @override
   Widget build(BuildContext context) {
+    final visual = lesson.exercises[index].visual;
+    if (visual != null) return ActivityPicture(visual: visual);
     Widget picture;
     final quantities = <String, List<(int, int, String)>>{
       'mt-2-somar': [(2, 1, '+'), (3, 2, '+'), (4, 4, '+'), (6, 4, '+')],
@@ -249,6 +258,177 @@ class ExercisePicture extends StatelessWidget {
       color: const Color(0xFFFFF0CC),
       padding: const EdgeInsets.all(16),
       child: picture,
+    );
+  }
+}
+
+class PictureToken extends StatelessWidget {
+  const PictureToken({super.key, required this.token, this.size = 46});
+  final String token;
+  final double size;
+  @override
+  Widget build(BuildContext context) {
+    final shape = switch (token) {
+      '●' || '🔵' => 'circle',
+      '▲' => 'triangle',
+      '■' || '🟨' => 'square',
+      '▰' => 'rectangle',
+      '🥭' => 'mango',
+      _ => null,
+    };
+    if (shape != null) {
+      return SizedBox(
+        width: size,
+        height: size,
+        child: FittedBox(child: ShapePicture(shape: shape)),
+      );
+    }
+    if (token == '🪙') {
+      return Container(
+        width: size,
+        height: size,
+        decoration: BoxDecoration(
+          shape: BoxShape.circle,
+          color: const Color(0xFFFFD66B),
+          border: Border.all(color: const Color(0xFFD49C24), width: 2),
+        ),
+        alignment: Alignment.center,
+        child: const Text(
+          '1',
+          style: TextStyle(fontSize: 22, fontWeight: FontWeight.w800),
+        ),
+      );
+    }
+    return SizedBox(
+      width: size + 8,
+      height: size + 12,
+      child: Center(
+        child: Text(
+          token,
+          style: TextStyle(
+            fontFamily: 'Emoji',
+            fontFamilyFallback: const ['Noto Color Emoji', 'Segoe UI Emoji'],
+            fontSize: size * .8,
+            height: 1.2,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class ActivityPicture extends StatelessWidget {
+  const ActivityPicture({super.key, required this.visual});
+  final ActivityVisual visual;
+  Widget group(int count, {int removed = 0}) => Wrap(
+    spacing: 5,
+    runSpacing: 5,
+    children: [
+      for (var i = 0; i < count; i++)
+        Stack(
+          alignment: Alignment.center,
+          children: [
+            Opacity(
+              opacity: i >= count - removed ? .3 : 1,
+              child: PictureToken(token: visual.tokens.first, size: 34),
+            ),
+            if (i >= count - removed)
+              const Icon(Icons.close_rounded, color: ink, size: 34),
+          ],
+        ),
+    ],
+  );
+  Widget namedGroup(String name, int count, {bool length = false}) => Column(
+    crossAxisAlignment: CrossAxisAlignment.start,
+    children: [
+      Text(
+        name,
+        style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800),
+      ),
+      const SizedBox(height: 8),
+      if (length)
+        Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            for (var i = 0; i < count; i++)
+              Container(
+                width: 18,
+                height: 26,
+                decoration: BoxDecoration(
+                  color: const Color(0xFFFFCF55),
+                  border: Border.all(color: ink, width: .5),
+                ),
+              ),
+          ],
+        )
+      else
+        group(count),
+    ],
+  );
+  @override
+  Widget build(BuildContext context) {
+    final picture = switch (visual.kind) {
+      'count' => group(visual.left),
+      'subtraction' => group(visual.left, removed: visual.right),
+      'addition' => Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          group(visual.left),
+          const Padding(
+            padding: EdgeInsets.symmetric(vertical: 6),
+            child: Icon(Icons.add_rounded, size: 28),
+          ),
+          group(visual.right),
+        ],
+      ),
+      'compare' || 'length' => Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          namedGroup(
+            visual.kind == 'length' ? 'Fita A' : 'Grupo A',
+            visual.left,
+            length: visual.kind == 'length',
+          ),
+          const SizedBox(height: 18),
+          namedGroup(
+            visual.kind == 'length' ? 'Fita B' : 'Grupo B',
+            visual.right,
+            length: visual.kind == 'length',
+          ),
+        ],
+      ),
+      _ => Wrap(
+        spacing: 12,
+        runSpacing: 12,
+        crossAxisAlignment: WrapCrossAlignment.center,
+        children: [
+          for (final token in visual.tokens) PictureToken(token: token),
+        ],
+      ),
+    };
+    return Semantics(
+      label:
+          '${visual.label}. ${switch (visual.kind) {
+            'count' => '${visual.left} objectos',
+            'addition' => '${visual.left} objectos, mais ${visual.right} objectos',
+            'subtraction' => '${visual.left} objectos, ${visual.right} riscados',
+            'compare' => 'Grupo A: ${visual.left}. Grupo B: ${visual.right}',
+            'length' => 'Fita A: ${visual.left} blocos. Fita B: ${visual.right} blocos',
+            'sequence' => visual.tokens.join(', '),
+            'shape' => visual.tokens.map((t) => switch (t) {
+              '●' => 'círculo',
+              '▲' => 'triângulo',
+              '■' => 'quadrado',
+              '▰' => 'rectângulo',
+              _ => 'espaço a completar',
+            }).join(', '),
+            _ => '',
+          }}',
+      child: Surface(
+        color: const Color(0xFFFFF0CC),
+        padding: const EdgeInsets.all(16),
+        child: ExcludeSemantics(child: picture),
+      ),
     );
   }
 }

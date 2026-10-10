@@ -20,3 +20,9 @@ Phone acceptance:
 3. Try counting, subtraction and shape choices; confirm the pictures match the task.
 4. Complete a lesson, relaunch, and confirm progress remains saved.
 5. Ask a child to explore with an adult; check whether pictures improve understanding and engagement.
+
+## Book correction — included in 0.3.0 (build 5)
+
+The user tested and approved the visual update. The reading illustration now positions the open book for the children: the page pictures face them and appear upside-down to the camera. Updated with the built-in image-generation tool; saved in assets/images/reading.png.
+
+Edit prompt: Use case: precise-object-edit. Edit target: supplied reading illustration for Aprende Brincando. Change ONLY the open book's reading orientation. The two children are behind the book, looking toward the foreground. Rotate the entire open picture book 180 degrees in its own plane on the grass, so its page illustrations are upright from the children's viewpoint, and upside-down from the camera's viewpoint. The tops of the pictures (sky, treetops) must be nearest the camera at the bottom of the image; the bottoms of the pictures (ground, tree roots) must be nearest the children at the top of the book. Keep the book open and naturally foreshortened on the ground, keep the boy's pointing finger on a page, and keep the same landscape picture subjects, two children, faces, clothing, garden, mangoes, basket, sunlight, palette, framing and storybook style. Do not rotate the whole scene. No text or watermark.

@@ -1,3 +1,5 @@
+import 'dart:io';
+import 'package:aprende_brincando/content/curriculum.dart';
 import 'dart:convert';
 import 'package:aprende_brincando/state/learning_controller.dart';
 import 'package:aprende_brincando/data/local_store.dart';
@@ -13,6 +15,22 @@ void main() {
     controller = LearningController(curriculum: fixture(), store: store);
   });
   tearDown(() => controller.dispose());
+  test('Build 01 profiles and scores survive expanded curriculum', () async {
+    final legacy = LearningController(
+      curriculum: Curriculum.parse(
+        File('test/fixtures/build01_curriculum.json').readAsStringSync(),
+      ),
+      store: store,
+    );
+    addTearDown(legacy.dispose);
+    await legacy.addProfile('Lina', 6, 0);
+    await legacy.recordResult(legacy.curriculum.lessons.first, 4);
+    await controller.load();
+    expect(controller.active!.name, 'Lina');
+    expect(controller.stars, 3);
+    expect(controller.progress('pt-1-vogais')!.bestCorrect, 4);
+    expect(controller.curriculum.lessons.length, 50);
+  });
   test('new install has no profiles', () async {
     await controller.load();
     expect(controller.profiles, isEmpty);

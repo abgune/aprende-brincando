@@ -173,6 +173,9 @@ class HomeScreen extends StatelessWidget {
                 for (final subject in ['portuguese', 'math']) ...[
                   SubjectCard(
                     subject: subject,
+                    total: controller.curriculum.lessons
+                        .where((l) => l.subject == subject)
+                        .length,
                     completed: controller.curriculum.lessons
                         .where(
                           (l) =>
@@ -240,10 +243,11 @@ class SubjectCard extends StatelessWidget {
     super.key,
     required this.subject,
     required this.completed,
+    required this.total,
     required this.onTap,
   });
   final String subject;
-  final int completed;
+  final int completed, total;
   final VoidCallback onTap;
   @override
   Widget build(BuildContext context) => Semantics(
@@ -281,7 +285,7 @@ class SubjectCard extends StatelessWidget {
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    '$completed de 6 lições terminadas',
+                    '$completed de $total lições terminadas',
                     style: TextStyle(
                       color: subjectColor(subject),
                       fontSize: 12,

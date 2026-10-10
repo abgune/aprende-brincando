@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 1,
+  "language": "pt-MZ",
+  "contentVersion": "0.1.0",
+  "reviewStatus": "prototype-awaiting-mozambican-educator-review",
+  "lessons": [
+    {
+      "id": "pt-1-vogais",
+      "subject": "portuguese",
+      "level": 1,
+      "title": "As cinco vogais",
+      "objective": "Reconhecer as vogais em palavras familiares.",
+      "introduction": "As vogais são A, E, I, O e U. Aparecem em muitas palavras: água, escola, ilha, ovo e uva. Vamos procurar vogais!",
+      "exercises": [
+        {
+          "prompt": "Qual destas letras é uma vogal?",
+          "choices": [
+            "B",
+            "A",
+            "M"
+          ],
+          "answer": 1,
+          "explanation": "A é uma vogal. As cinco vogais são A, E, I, O e U."
+        },
+        {
+          "prompt": "Que vogal está no início de «ovo»?",
+          "choices": [
+            "A",
+            "U",
+            "O"
+          ],
+          "answer": 2,
+          "explanation": "Ovo começa com a vogal O."
+        },
+        {
+          "prompt": "Completa a primeira letra: _va.",
+          "choices": [
+            "U",
+            "E",
+            "I"
+          ],
+          "answer": 0,
+          "explanation": "U + va forma a palavra uva."
+        },
+        {
+          "prompt": "Qual grupo tem apenas vogais?",
+          "choices": [
+            "B, C, D",
+            "A, E, I",
+            "M, N, P"
+          ],
+          "answer": 1,
+          "explanation": "A, E e I são vogais. O e U também são vogais."
+        }
+      ]
+    },
+    {
+      "id": "pt-1-silabas",
+      "subject": "portuguese",
+      "level": 1,
+      "title": "Juntar sílabas",
+      "objective": "Juntar sílabas para formar palavras simples.",
+      "introduction": "Podemos dividir palavras em partes chamadas sílabas. MA + LA = MALA. PA + TO = PATO. Lê devagar e junta as partes.",
+      "exercises": [
+        {
+          "prompt": "MA + LA forma que palavra?",
+          "choices": [
+            "MESA",
+            "MALA",
+            "LATA"
+          ],
+          "answer": 1,
+          "explanation": "Juntando MA e LA, lemos MALA."
+        },
+        {
+          "prompt": "PA + TO forma que palavra?",
+          "choices": [
+            "GATO",
+            "POTE",
+            "PATO"
+          ],
+          "answer": 2,
+          "explanation": "PA e TO formam PATO."
+        },
+        {
+          "prompt": "Que sílaba completa CA + __ para formar CASA?",
+          "choices": [
+            "SA",
+            "TO",
+            "LA"
+          ],
+          "answer": 0,
+          "explanation": "CA + SA forma CASA."
+        },
+        {
+          "prompt": "Como dividimos «mesa» em sílabas?",
+          "choices": [
+            "M + ESA",
+            "ME + SA",
+            "MES + A"
+          ],
+          "answer": 1,
+          "explanation": "Mesa tem duas sílabas: ME e SA."
+        }
+      ]
+    },
+    {
+      "id": "pt-2-palavras",
+      "subject": "portuguese",
+      "level": 2,
+      "title": "Palavras do dia a dia",
+      "objective": "Ler palavras e associá-las a situações conhecidas.",
+      "introduction": "Na escola usamos um livro. No mercado compramos fruta. Em casa podemos beber água. As palavras ajudam-nos a contar o que fazemos.",
+      "exercises": [
+        {
+          "prompt": "Qual palavra nomeia algo que podemos ler?",
+          "choices": [
+            "copo",
+            "sapato",
+            "livro"
+          ],
+          "answer": 2,
+          "explanation": "Um livro tem palavras e pode ter imagens que lemos e observamos."
+        },
+        {
+          "prompt": "Qual destas palavras é o nome de uma fruta?",
+          "choices": [
+            "manga",
+            "mesa",
+            "bola"
+          ],
+          "answer": 0,
+          "explanation": "A manga é uma fruta. Aqui estamos a falar da fruta, não da manga de uma camisa."
+        },
+        {
+          "prompt": "Qual palavra completa «Vou beber __»?",
+          "choices": [
+            "pedra",
+            "água",
+            "cadeira"
+          ],
+          "answer": 1,
+          "explanation": "Podemos beber água."
+        },
+        {
+          "prompt": "Qual destas palavras nomeia um lugar onde aprendemos?",
+          "choices": [
+            "colher",
+            "chapéu",
+            "escola"
+          ],
+          "answer": 2,
+          "explanation": "A escola é um lugar onde aprendemos com outras pessoas."
+        }
+      ]
+    },
+    {
+      "id": "pt-2-frases",
+      "subject": "portuguese",
+      "level": 2,
+      "title": "Pequenas frases",
+      "objective": "Ler e completar frases curtas.",
+      "introduction": "Uma frase comunica uma ideia. «A Ana lê.» diz quem faz a acção e o que faz. Lê cada frase com calma.",
+      "exercises": [
+        {
+          "prompt": "«A Ana lê um livro.» Quem lê?",
+          "choices": [
+            "O Rui",
+            "O livro",
+            "A Ana"
+          ],
+          "answer": 2,
+          "explanation": "A frase diz que a Ana lê um livro."
+        },
+        {
+          "prompt": "Completa: «O Rui joga à __.»",
+          "choices": [
+            "bola",
+            "água",
+            "mesa"
+          ],
+          "answer": 0,
+          "explanation": "Dizemos: O Rui joga à bola."
+        },
+        {
+          "prompt": "Qual frase fala de ir à escola?",
+          "choices": [
+            "A Bia come uma manga.",
+            "A Bia vai à escola.",
+            "A Bia dorme."
+          ],
+          "answer": 1,
+          "explanation": "«A Bia vai à escola» conta uma ida à escola."
+        },
+        {
+          "prompt": "«O gato está na casa.» Onde está o gato?",
+          "choices": [
+            "No mercado",
+            "Na árvore",
+            "Na casa"
+          ],
+          "answer": 2,
+          "explanation": "A frase diz que o gato está na casa."
+        }
+      ]
+    },
+    {
+      "id": "pt-3-historia",
+      "subject": "portuguese",
+      "level": 3,
+      "title": "Uma manhã no mercado",
+      "objective": "Encontrar informações num pequeno texto.",
+      "introduction": "A Lina foi ao mercado com o avô. Compraram três mangas. Em casa, lavaram as mangas com água limpa. Depois, partilharam a fruta com a família.",
+      "exercises": [
+        {
+          "prompt": "A Lina foi ao mercado com o avô. Com quem foi a Lina?",
+          "choices": [
+            "Com o avô",
+            "Com a professora",
+            "Sozinha"
+          ],
+          "answer": 0,
+          "explanation": "O texto conta que a Lina foi com o avô."
+        },
+        {
+          "prompt": "Compraram três mangas. Que fruta compraram?",
+          "choices": [
+            "Bananas",
+            "Mangas",
+            "Laranjas"
+          ],
+          "answer": 1,
+          "explanation": "A Lina e o avô compraram mangas."
+        },
+        {
+          "prompt": "Em casa, lavaram as mangas. O que fizeram antes de comer?",
+          "choices": [
+            "Pintaram as mangas",
+            "Deitaram as mangas fora",
+            "Lavaram as mangas"
+          ],
+          "answer": 2,
+          "explanation": "Primeiro lavaram a fruta com água limpa."
+        },
+        {
+          "prompt": "Partilharam a fruta com a família. Com quem partilharam?",
+          "choices": [
+            "Com a família",
+            "Com um gato",
+            "Com ninguém"
+          ],
+          "answer": 0,
+          "explanation": "A Lina e o avô partilharam a fruta com a família."
+        }
+      ]
+    },
+    {
+      "id": "pt-3-sequencia",
+      "subject": "portuguese",
+      "level": 3,
+      "title": "Primeiro e depois",
+      "objective": "Ordenar acções e compreender uma mensagem.",
+      "introduction": "O Tomás prepara a mochila. Depois, caminha até à escola com a mãe. Na sala, abre o livro e lê uma história. No fim, conta à mãe o que aprendeu.",
+      "exercises": [
+        {
+          "prompt": "O Tomás prepara a mochila antes de ir à escola. O que faz primeiro?",
+          "choices": [
+            "Prepara a mochila",
+            "Abre o livro na sala",
+            "Conta o que aprendeu"
+          ],
+          "answer": 0,
+          "explanation": "Preparar a mochila é a primeira acção do texto."
+        },
+        {
+          "prompt": "O Tomás caminha até à escola com a mãe. Como vai à escola?",
+          "choices": [
+            "De barco",
+            "A pé",
+            "De avião"
+          ],
+          "answer": 1,
+          "explanation": "Caminhar significa andar a pé."
+        },
+        {
+          "prompt": "Na sala, abre o livro e lê uma história. O que faz depois de abrir o livro?",
+          "choices": [
+            "Vai dormir",
+            "Prepara a mochila",
+            "Lê uma história"
+          ],
+          "answer": 2,
+          "explanation": "Depois de abrir o livro, o Tomás lê uma história."
+        },
+        {
+          "prompt": "No fim, conta à mãe o que aprendeu. Qual é a última acção?",
+          "choices": [
+            "Conta o que aprendeu",
+            "Caminha até à escola",
+            "Prepara a mochila"
+          ],
+          "answer": 0,
+          "explanation": "No fim do texto, o Tomás conta à mãe o que aprendeu."
+        }
+      ]
+    },
+    {
+      "id": "mt-1-contar",
+      "subject": "math",
+      "level": 1,
+      "title": "Contar até dez",
+      "objective": "Contar pequenas quantidades e reconhecer números até 10.",
+      "introduction": "Contar ajuda-nos a saber quantos objectos temos. Podemos contar um a um: 1, 2, 3, 4, 5… até 10.",
+      "exercises": [
+        {
+          "prompt": "Conta os pontos: ● ● ●. Quantos são?",
+          "choices": [
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": 1,
+          "explanation": "Contamos um, dois, três. São três pontos."
+        },
+        {
+          "prompt": "Que número vem depois do 5?",
+          "choices": [
+            "4",
+            "8",
+            "6"
+          ],
+          "answer": 2,
+          "explanation": "Na contagem, depois do cinco vem o seis."
+        },
+        {
+          "prompt": "Que número completa 7, 8, __, 10?",
+          "choices": [
+            "9",
+            "6",
+            "5"
+          ],
+          "answer": 0,
+          "explanation": "A sequência é sete, oito, nove, dez."
+        },
+        {
+          "prompt": "A Sara tem 4 lápis. Que número representa essa quantidade?",
+          "choices": [
+            "1",
+            "4",
+            "7"
+          ],
+          "answer": 1,
+          "explanation": "Quatro lápis são representados pelo número 4."
+        }
+      ]
+    },
+    {
+      "id": "mt-1-formas",
+      "subject": "math",
+      "level": 1,
+      "title": "Descobrir formas",
+      "objective": "Reconhecer círculo, triângulo e quadrado.",
+      "introduction": "Um círculo é redondo e não tem lados rectos. Um triângulo tem três lados. Um quadrado tem quatro lados iguais.",
+      "exercises": [
+        {
+          "prompt": "Que forma é redonda e não tem lados rectos?",
+          "choices": [
+            "Triângulo",
+            "Círculo",
+            "Quadrado"
+          ],
+          "answer": 1,
+          "explanation": "O círculo é uma forma redonda, sem lados rectos."
+        },
+        {
+          "prompt": "Quantos lados tem um triângulo?",
+          "choices": [
+            "2",
+            "4",
+            "3"
+          ],
+          "answer": 2,
+          "explanation": "Um triângulo tem três lados."
+        },
+        {
+          "prompt": "Que forma tem quatro lados iguais e quatro cantos rectos?",
+          "choices": [
+            "Quadrado",
+            "Círculo",
+            "Triângulo"
+          ],
+          "answer": 0,
+          "explanation": "O quadrado tem quatro lados iguais e quatro cantos rectos."
+        },
+        {
+          "prompt": "Um desenho de uma roda vista de lado lembra que forma?",
+          "choices": [
+            "Quadrado",
+            "Círculo",
+            "Triângulo"
+          ],
+          "answer": 1,
+          "explanation": "O contorno de uma roda vista de lado lembra um círculo."
+        }
+      ]
+    },
+    {
+      "id": "mt-2-somar",
+      "subject": "math",
+      "level": 2,
+      "title": "Juntar e somar",
+      "objective": "Resolver adições com resultados até 10.",
+      "introduction": "Somar é juntar quantidades. Se temos duas mangas e recebemos mais uma, ficamos com três: 2 + 1 = 3.",
+      "exercises": [
+        {
+          "prompt": "Tens 2 mangas e recebes mais 1. Quantas tens agora?",
+          "choices": [
+            "1",
+            "4",
+            "3"
+          ],
+          "answer": 2,
+          "explanation": "Duas mangas mais uma manga são três mangas: 2 + 1 = 3."
+        },
+        {
+          "prompt": "Quanto é 3 + 2?",
+          "choices": [
+            "5",
+            "4",
+            "6"
+          ],
+          "answer": 0,
+          "explanation": "Três mais dois são cinco."
+        },
+        {
+          "prompt": "Há 4 crianças a brincar. Chegam mais 4. Quantas ficam?",
+          "choices": [
+            "4",
+            "8",
+            "9"
+          ],
+          "answer": 1,
+          "explanation": "Quatro crianças mais quatro crianças são oito."
+        },
+        {
+          "prompt": "Quanto é 6 + 4?",
+          "choices": [
+            "9",
+            "8",
+            "10"
+          ],
+          "answer": 2,
+          "explanation": "Seis mais quatro são dez."
+        }
+      ]
+    },
+    {
+      "id": "mt-2-tirar",
+      "subject": "math",
+      "level": 2,
+      "title": "Tirar e comparar",
+      "objective": "Resolver subtracções simples e comparar quantidades.",
+      "introduction": "Subtrair é tirar uma quantidade. Se há cinco bananas e comemos duas, ficam três: 5 − 2 = 3. Também podemos comparar quantidades para saber qual é maior.",
+      "exercises": [
+        {
+          "prompt": "Há 5 bananas. Comem-se 2. Quantas ficam?",
+          "choices": [
+            "2",
+            "7",
+            "3"
+          ],
+          "answer": 2,
+          "explanation": "Cinco menos duas são três: 5 − 2 = 3."
+        },
+        {
+          "prompt": "Quanto é 8 − 3?",
+          "choices": [
+            "5",
+            "4",
+            "6"
+          ],
+          "answer": 0,
+          "explanation": "Se tirarmos três de oito, ficam cinco."
+        },
+        {
+          "prompt": "Qual número é maior?",
+          "choices": [
+            "6",
+            "9",
+            "3"
+          ],
+          "answer": 1,
+          "explanation": "Nove é maior do que seis e três."
+        },
+        {
+          "prompt": "Tens 7 lápis e emprestas 1. Com quantos ficas?",
+          "choices": [
+            "7",
+            "8",
+            "6"
+          ],
+          "answer": 2,
+          "explanation": "Sete menos um são seis."
+        }
+      ]
+    },
+    {
+      "id": "mt-3-problemas",
+      "subject": "math",
+      "level": 3,
+      "title": "Resolver situações",
+      "objective": "Escolher e resolver operações em situações do dia a dia.",
+      "introduction": "Lê o problema e procura as quantidades. Quando juntamos, somamos. Quando tiramos, subtraímos. Podes contar com os dedos ou usar objectos.",
+      "exercises": [
+        {
+          "prompt": "A Ilda tem 7 conchas e encontra mais 5. Quantas tem?",
+          "choices": [
+            "12",
+            "10",
+            "2"
+          ],
+          "answer": 0,
+          "explanation": "Juntamos as conchas: 7 + 5 = 12."
+        },
+        {
+          "prompt": "Num cesto há 15 mangas. Retiram-se 4. Quantas ficam?",
+          "choices": [
+            "19",
+            "11",
+            "9"
+          ],
+          "answer": 1,
+          "explanation": "Tiramos quatro de quinze: 15 − 4 = 11."
+        },
+        {
+          "prompt": "Há 8 crianças na sala e entram mais 6. Qual conta resolve o problema?",
+          "choices": [
+            "8 − 6",
+            "6 − 8",
+            "8 + 6"
+          ],
+          "answer": 2,
+          "explanation": "Entram mais crianças, por isso juntamos: 8 + 6 = 14."
+        },
+        {
+          "prompt": "O Paulo tem 20 meticais e usa 5 meticais. Quantos ficam?",
+          "choices": [
+            "15",
+            "25",
+            "10"
+          ],
+          "answer": 0,
+          "explanation": "Vinte menos cinco são quinze meticais."
+        }
+      ]
+    },
+    {
+      "id": "mt-3-padroes",
+      "subject": "math",
+      "level": 3,
+      "title": "Padrões e números",
+      "objective": "Completar padrões e ordenar números até 20.",
+      "introduction": "Um padrão repete uma regra. Em 2, 4, 6, 8, acrescentamos dois de cada vez. Nos números até vinte, também podemos comparar e ordenar.",
+      "exercises": [
+        {
+          "prompt": "Completa: 2, 4, 6, __.",
+          "choices": [
+            "8",
+            "7",
+            "9"
+          ],
+          "answer": 0,
+          "explanation": "A regra é acrescentar dois. Depois do seis vem o oito neste padrão."
+        },
+        {
+          "prompt": "Completa: círculo, quadrado, círculo, __.",
+          "choices": [
+            "triângulo",
+            "quadrado",
+            "círculo"
+          ],
+          "answer": 1,
+          "explanation": "O padrão alterna círculo e quadrado."
+        },
+        {
+          "prompt": "Qual lista está do menor para o maior?",
+          "choices": [
+            "19, 15, 11",
+            "15, 11, 19",
+            "11, 15, 19"
+          ],
+          "answer": 2,
+          "explanation": "Onze é menor que quinze, e quinze é menor que dezanove."
+        },
+        {
+          "prompt": "Que número vem imediatamente antes de 20?",
+          "choices": [
+            "19",
+            "18",
+            "21"
+          ],
+          "answer": 0,
+          "explanation": "Na contagem, dezanove vem imediatamente antes de vinte."
+        }
+      ]
+    }
+  ]
+}

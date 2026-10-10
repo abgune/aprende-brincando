@@ -34,6 +34,14 @@ void main() {
         );
       }
       await fonts.load();
+      final emojiFile = File('C:/Windows/Fonts/seguiemj.ttf');
+      if (await emojiFile.exists()) {
+        final emoji = FontLoader('Emoji');
+        emoji.addFont(
+          Future.value(ByteData.sublistView(await emojiFile.readAsBytes())),
+        );
+        await emoji.load();
+      }
       final icons = FontLoader('MaterialIcons');
       icons.addFont(
         Future.value(
@@ -127,6 +135,29 @@ void main() {
         body: PageBody(child: CountingPicture(count: 5, removed: 2)),
       ),
     );
+    for (final subject in ['portuguese', 'math']) {
+      final lesson = controller.curriculum.lessons.firstWhere(
+        (l) => l.subject == subject && l.id.contains('-visual-'),
+      );
+      await capture(
+        '$subject-activity',
+        LessonScreen(controller: controller, lesson: lesson),
+      );
+      await tester.ensureVisible(find.text('Começar os desafios'));
+      await tester.tap(find.text('Começar os desafios'));
+      await tester.pumpAndSettle();
+      await tester.runAsync(() async {
+        final boundary =
+            boundaryKey.currentContext!.findRenderObject()!
+                as RenderRepaintBoundary;
+        final image = await boundary.toImage(pixelRatio: 2);
+        final data = await image.toByteData(format: ui.ImageByteFormat.png);
+        await File(
+          'docs/previews/$subject-activity.png',
+        ).writeAsBytes(data!.buffer.asUint8List());
+        image.dispose();
+      });
+    }
     await capture('parents', ParentScreen(controller: controller));
   });
 }

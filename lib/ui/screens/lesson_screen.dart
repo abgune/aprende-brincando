@@ -5,14 +5,37 @@ class LessonScreen extends StatefulWidget {
     super.key,
     required this.controller,
     required this.lesson,
+    this.speechBackend,
   });
   final LearningController controller;
   final Lesson lesson;
+  final SpeechBackend? speechBackend;
   @override
   State<LessonScreen> createState() => _LessonScreenState();
 }
 
-class _LessonScreenState extends State<LessonScreen> {
+class _LessonScreenState extends State<LessonScreen>
+    with WidgetsBindingObserver {
+  late final ReadAloudController reader;
+  @override
+  void initState() {
+    super.initState();
+    reader = ReadAloudController(backend: widget.speechBackend);
+    WidgetsBinding.instance.addObserver(this);
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state != AppLifecycleState.resumed) unawaited(reader.stop());
+  }
+
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    reader.dispose();
+    super.dispose();
+  }
+
   bool started = false,
       finished = false,
       saved = false,
@@ -22,6 +45,8 @@ class _LessonScreenState extends State<LessonScreen> {
   int? selected;
 
   Future<void> finish() async {
+    await reader.stop();
+    if (!mounted) return;
     setState(() {
       finished = true;
       saving = true;
@@ -105,6 +130,12 @@ class _LessonScreenState extends State<LessonScreen> {
                         ),
                       ),
                       const SizedBox(height: 16),
+                      ReadAloudButton(
+                        reader: reader,
+                        readingKey: 'introduction',
+                        text: lesson.introduction,
+                      ),
+                      const SizedBox(height: 12),
                       Text(
                         lesson.introduction,
                         style: const TextStyle(fontSize: 20, height: 1.6),
@@ -121,7 +152,10 @@ class _LessonScreenState extends State<LessonScreen> {
                 SizedBox(
                   width: double.infinity,
                   child: FilledButton(
-                    onPressed: () => setState(() => started = true),
+                    onPressed: () {
+                      unawaited(reader.stop());
+                      setState(() => started = true);
+                    },
                     child: const Text('Começar os desafios'),
                   ),
                 ),
@@ -215,6 +249,21 @@ class _LessonScreenState extends State<LessonScreen> {
                   ),
                 ),
                 const SizedBox(height: 28),
+                if (lesson.subject == 'portuguese' &&
+                    lesson.level == 3 &&
+                    exercise.visual != null)
+                  ExpansionTile(
+                    title: const Text('Ver a história'),
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(12),
+                        child: Text(
+                          lesson.introduction,
+                          style: const TextStyle(fontSize: 18, height: 1.5),
+                        ),
+                      ),
+                    ],
+                  ),
                 Text(
                   exercise.prompt,
                   style: const TextStyle(
@@ -225,6 +274,13 @@ class _LessonScreenState extends State<LessonScreen> {
                 ),
                 const SizedBox(height: 16),
                 ExercisePicture(lesson: lesson, index: index),
+                const SizedBox(height: 8),
+                ReadAloudButton(
+                  reader: reader,
+                  readingKey: 'question-$index',
+                  text:
+                      '${lesson.subject == "portuguese" && lesson.level == 3 && exercise.visual != null ? lesson.introduction : ""} ${exercise.prompt}. ${List.generate(exercise.choices.length, (i) => "Opção ${i + 1}: ${exercise.choices[i]}").join(". ")}',
+                ),
                 const SizedBox(height: 16),
                 for (var choice = 0; choice < exercise.choices.length; choice++)
                   Padding(
@@ -293,6 +349,11 @@ class _LessonScreenState extends State<LessonScreen> {
                             ),
                           ),
                           const SizedBox(height: 8),
+                          ReadAloudButton(
+                            reader: reader,
+                            readingKey: 'feedback-$index',
+                            text: exercise.explanation,
+                          ),
                           Text(
                             exercise.explanation,
                             style: const TextStyle(fontSize: 17, height: 1.5),
@@ -306,6 +367,7 @@ class _LessonScreenState extends State<LessonScreen> {
                     width: double.infinity,
                     child: FilledButton(
                       onPressed: () {
+                        unawaited(reader.stop());
                         if (index + 1 == lesson.exercises.length) {
                           finish();
                         } else {

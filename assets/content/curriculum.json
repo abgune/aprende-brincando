@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "language": "pt-MZ",
-  "contentVersion": "0.1.0",
+  "contentVersion": "0.2.0",
   "reviewStatus": "prototype-awaiting-mozambican-educator-review",
   "lessons": [
     {
@@ -601,6 +601,3378 @@
           ],
           "answer": 0,
           "explanation": "Na contagem, dezanove vem imediatamente antes de vinte."
+        }
+      ]
+    },
+    {
+      "id": "pt-1-visual-vogais",
+      "subject": "portuguese",
+      "level": 1,
+      "title": "Vogais nas imagens",
+      "objective": "Observa a imagem e diz a palavra em voz alta. Escuta o primeiro som.",
+      "introduction": "Observa a imagem e diz a palavra em voz alta. Escuta o primeiro som.",
+      "exercises": [
+        {
+          "prompt": "Observa a imagem de ovo. Que letra vem no início?",
+          "choices": [
+            "A",
+            "B",
+            "O"
+          ],
+          "answer": 2,
+          "explanation": "Ovo começa com a letra O.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🥚"
+            ],
+            "label": "ovo",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Observa a imagem de uva. Que letra vem no início?",
+          "choices": [
+            "A",
+            "U",
+            "B"
+          ],
+          "answer": 1,
+          "explanation": "Uva começa com a letra U.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🍇"
+            ],
+            "label": "uva",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Observa a imagem de árvore. Que letra vem no início?",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": 0,
+          "explanation": "Árvore começa com a letra A.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🌳"
+            ],
+            "label": "árvore",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Observa a imagem de estrela. Que letra vem no início?",
+          "choices": [
+            "E",
+            "A",
+            "B"
+          ],
+          "answer": 0,
+          "explanation": "Estrela começa com a letra E.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "⭐"
+            ],
+            "label": "estrela",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt-1-visual-letras",
+      "subject": "portuguese",
+      "level": 1,
+      "title": "As primeiras letras",
+      "objective": "Observa a imagem e diz a palavra em voz alta. Escuta o primeiro som.",
+      "introduction": "Observa a imagem e diz a palavra em voz alta. Escuta o primeiro som.",
+      "exercises": [
+        {
+          "prompt": "Observa a imagem de bola. Que letra vem no início?",
+          "choices": [
+            "A",
+            "C",
+            "B"
+          ],
+          "answer": 2,
+          "explanation": "Bola começa com a letra B.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "⚽"
+            ],
+            "label": "bola",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Observa a imagem de casa. Que letra vem no início?",
+          "choices": [
+            "C",
+            "B",
+            "A"
+          ],
+          "answer": 0,
+          "explanation": "Casa começa com a letra C.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🏠"
+            ],
+            "label": "casa",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Observa a imagem de gato. Que letra vem no início?",
+          "choices": [
+            "A",
+            "B",
+            "G"
+          ],
+          "answer": 2,
+          "explanation": "Gato começa com a letra G.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🐈"
+            ],
+            "label": "gato",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Observa a imagem de pato. Que letra vem no início?",
+          "choices": [
+            "P",
+            "A",
+            "B"
+          ],
+          "answer": 0,
+          "explanation": "Pato começa com a letra P.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🦆"
+            ],
+            "label": "pato",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt-1-visual-escola",
+      "subject": "portuguese",
+      "level": 1,
+      "title": "Letras à nossa volta",
+      "objective": "Observa a imagem e diz a palavra em voz alta. Escuta o primeiro som.",
+      "introduction": "Observa a imagem e diz a palavra em voz alta. Escuta o primeiro som.",
+      "exercises": [
+        {
+          "prompt": "Observa a imagem de mala. Que letra vem no início?",
+          "choices": [
+            "B",
+            "M",
+            "A"
+          ],
+          "answer": 1,
+          "explanation": "Mala começa com a letra M.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🧳"
+            ],
+            "label": "mala",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Observa a imagem de livro. Que letra vem no início?",
+          "choices": [
+            "B",
+            "L",
+            "A"
+          ],
+          "answer": 1,
+          "explanation": "Livro começa com a letra L.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "📖"
+            ],
+            "label": "livro",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Observa a imagem de lápis. Que letra vem no início?",
+          "choices": [
+            "B",
+            "A",
+            "L"
+          ],
+          "answer": 2,
+          "explanation": "Lápis começa com a letra L.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "✏️"
+            ],
+            "label": "lápis",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Observa a imagem de sol. Que letra vem no início?",
+          "choices": [
+            "S",
+            "B",
+            "A"
+          ],
+          "answer": 0,
+          "explanation": "Sol começa com a letra S.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "☀️"
+            ],
+            "label": "sol",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt-1-visual-juntar",
+      "subject": "portuguese",
+      "level": 1,
+      "title": "Sílabas com imagens",
+      "objective": "As sílabas são partes de uma palavra. Junta as partes e encontra a imagem.",
+      "introduction": "As sílabas são partes de uma palavra. Junta as partes e encontra a imagem.",
+      "exercises": [
+        {
+          "prompt": "Junta as sílabas: BO + LA. Que palavra fica?",
+          "choices": [
+            "BOLA",
+            "CASA",
+            "MALA"
+          ],
+          "answer": 0,
+          "explanation": "BO + LA forma BOLA.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "⚽"
+            ],
+            "label": "bola",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Junta as sílabas: GA + TO. Que palavra fica?",
+          "choices": [
+            "BOLA",
+            "MALA",
+            "GATO"
+          ],
+          "answer": 2,
+          "explanation": "GA + TO forma GATO.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🐈"
+            ],
+            "label": "gato",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Junta as sílabas: PA + TO. Que palavra fica?",
+          "choices": [
+            "PATO",
+            "MALA",
+            "BOLA"
+          ],
+          "answer": 0,
+          "explanation": "PA + TO forma PATO.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🦆"
+            ],
+            "label": "pato",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Junta as sílabas: CA + SA. Que palavra fica?",
+          "choices": [
+            "MALA",
+            "CASA",
+            "BOLA"
+          ],
+          "answer": 1,
+          "explanation": "CA + SA forma CASA.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🏠"
+            ],
+            "label": "casa",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt-1-visual-juntar2",
+      "subject": "portuguese",
+      "level": 1,
+      "title": "Mais palavras para juntar",
+      "objective": "As sílabas são partes de uma palavra. Junta as partes e encontra a imagem.",
+      "introduction": "As sílabas são partes de uma palavra. Junta as partes e encontra a imagem.",
+      "exercises": [
+        {
+          "prompt": "Junta as sílabas: MA + LA. Que palavra fica?",
+          "choices": [
+            "BOLA",
+            "CASA",
+            "MALA"
+          ],
+          "answer": 2,
+          "explanation": "MA + LA forma MALA.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🧳"
+            ],
+            "label": "mala",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Junta as sílabas: LI + VRO. Que palavra fica?",
+          "choices": [
+            "LIVRO",
+            "BOLA",
+            "MALA"
+          ],
+          "answer": 0,
+          "explanation": "LI + VRO forma LIVRO.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "📖"
+            ],
+            "label": "livro",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Junta as sílabas: CO + PO. Que palavra fica?",
+          "choices": [
+            "MALA",
+            "COPO",
+            "BOLA"
+          ],
+          "answer": 1,
+          "explanation": "CO + PO forma COPO.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🥛"
+            ],
+            "label": "copo",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Junta as sílabas: U + VA. Que palavra fica?",
+          "choices": [
+            "MALA",
+            "BOLA",
+            "UVA"
+          ],
+          "answer": 2,
+          "explanation": "U + VA forma UVA.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🍇"
+            ],
+            "label": "uva",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt-1-visual-completar",
+      "subject": "portuguese",
+      "level": 1,
+      "title": "A letra escondida",
+      "objective": "Olha para a imagem e completa a vogal que falta na palavra.",
+      "introduction": "Olha para a imagem e completa a vogal que falta na palavra.",
+      "exercises": [
+        {
+          "prompt": "Que vogal falta em «b_la»?",
+          "choices": [
+            "O",
+            "A",
+            "E"
+          ],
+          "answer": 0,
+          "explanation": "A palavra completa é bola.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "⚽"
+            ],
+            "label": "bola",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Que vogal falta em «g_to»?",
+          "choices": [
+            "A",
+            "E",
+            "I"
+          ],
+          "answer": 0,
+          "explanation": "A palavra completa é gato.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🐈"
+            ],
+            "label": "gato",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Que vogal falta em «p_to»?",
+          "choices": [
+            "I",
+            "A",
+            "E"
+          ],
+          "answer": 1,
+          "explanation": "A palavra completa é pato.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🦆"
+            ],
+            "label": "pato",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Que vogal falta em «l_vro»?",
+          "choices": [
+            "I",
+            "A",
+            "E"
+          ],
+          "answer": 0,
+          "explanation": "A palavra completa é livro.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "📖"
+            ],
+            "label": "livro",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt-1-visual-palmas",
+      "subject": "portuguese",
+      "level": 1,
+      "title": "Palmas para as sílabas",
+      "objective": "Diz a palavra e bate uma palma por cada sílaba.",
+      "introduction": "Diz a palavra e bate uma palma por cada sílaba.",
+      "exercises": [
+        {
+          "prompt": "Diz «sol» devagar. Quantas sílabas tem?",
+          "choices": [
+            "3",
+            "1",
+            "2"
+          ],
+          "answer": 1,
+          "explanation": "Sol: sol. Tem 1 sílaba(s).",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "☀️"
+            ],
+            "label": "sol",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Diz «casa» devagar. Quantas sílabas tem?",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "answer": 1,
+          "explanation": "Casa: ca + sa. Tem 2 sílaba(s).",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🏠"
+            ],
+            "label": "casa",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Diz «banana» devagar. Quantas sílabas tem?",
+          "choices": [
+            "3",
+            "2",
+            "1"
+          ],
+          "answer": 0,
+          "explanation": "Banana: ba + na + na. Tem 3 sílaba(s).",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🍌"
+            ],
+            "label": "banana",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Diz «pato» devagar. Quantas sílabas tem?",
+          "choices": [
+            "2",
+            "3",
+            "1"
+          ],
+          "answer": 0,
+          "explanation": "Pato: pa + to. Tem 2 sílaba(s).",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🦆"
+            ],
+            "label": "pato",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt-2-visual-nomes",
+      "subject": "portuguese",
+      "level": 2,
+      "title": "O nome de cada imagem",
+      "objective": "Observa a imagem. Lê as palavras e escolhe o nome certo.",
+      "introduction": "Observa a imagem. Lê as palavras e escolhe o nome certo.",
+      "exercises": [
+        {
+          "prompt": "Que palavra corresponde à imagem?",
+          "choices": [
+            "livro",
+            "gato",
+            "bola"
+          ],
+          "answer": 1,
+          "explanation": "A imagem representa gato.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🐈"
+            ],
+            "label": "gato",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Que palavra corresponde à imagem?",
+          "choices": [
+            "gato",
+            "bola",
+            "livro"
+          ],
+          "answer": 2,
+          "explanation": "A imagem representa livro.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "📖"
+            ],
+            "label": "livro",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Que palavra corresponde à imagem?",
+          "choices": [
+            "bola",
+            "gato",
+            "livro"
+          ],
+          "answer": 0,
+          "explanation": "A imagem representa bola.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "⚽"
+            ],
+            "label": "bola",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Que palavra corresponde à imagem?",
+          "choices": [
+            "casa",
+            "livro",
+            "gato"
+          ],
+          "answer": 0,
+          "explanation": "A imagem representa casa.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🏠"
+            ],
+            "label": "casa",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt-2-visual-artigos",
+      "subject": "portuguese",
+      "level": 2,
+      "title": "O ou a?",
+      "objective": "Usamos o ou a antes de muitos nomes: o gato, a bola.",
+      "introduction": "Usamos o ou a antes de muitos nomes: o gato, a bola.",
+      "exercises": [
+        {
+          "prompt": "Completa: «__ bola».",
+          "choices": [
+            "as",
+            "o",
+            "a"
+          ],
+          "answer": 2,
+          "explanation": "Dizemos «a bola».",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "⚽"
+            ],
+            "label": "bola",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Completa: «__ gato».",
+          "choices": [
+            "o",
+            "as",
+            "a"
+          ],
+          "answer": 0,
+          "explanation": "Dizemos «o gato».",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🐈"
+            ],
+            "label": "gato",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Completa: «__ casa».",
+          "choices": [
+            "o",
+            "as",
+            "a"
+          ],
+          "answer": 2,
+          "explanation": "Dizemos «a casa».",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🏠"
+            ],
+            "label": "casa",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Completa: «__ livro».",
+          "choices": [
+            "a",
+            "o",
+            "as"
+          ],
+          "answer": 1,
+          "explanation": "Dizemos «o livro».",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "📖"
+            ],
+            "label": "livro",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt-2-visual-plural",
+      "subject": "portuguese",
+      "level": 2,
+      "title": "Um e muitos",
+      "objective": "Quando falamos de mais de um, muitas palavras recebem um s no fim.",
+      "introduction": "Quando falamos de mais de um, muitas palavras recebem um s no fim.",
+      "exercises": [
+        {
+          "prompt": "O nome é «gato». Como escrevemos quando há dois?",
+          "choices": [
+            "gatos",
+            "gatas",
+            "gato"
+          ],
+          "answer": 0,
+          "explanation": "Um: gato. Dois: gatos.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🐈",
+              "🐈"
+            ],
+            "label": "dois: gatos",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "O nome é «bola». Como escrevemos quando há dois?",
+          "choices": [
+            "bolas",
+            "bola",
+            "bolos"
+          ],
+          "answer": 0,
+          "explanation": "Um: bola. Dois: bolas.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "⚽",
+              "⚽"
+            ],
+            "label": "dois: bolas",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "O nome é «pato». Como escrevemos quando há dois?",
+          "choices": [
+            "patos",
+            "patas",
+            "pato"
+          ],
+          "answer": 0,
+          "explanation": "Um: pato. Dois: patos.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🦆",
+              "🦆"
+            ],
+            "label": "dois: patos",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "O nome é «casa». Como escrevemos quando há dois?",
+          "choices": [
+            "casos",
+            "casas",
+            "casa"
+          ],
+          "answer": 1,
+          "explanation": "Um: casa. Dois: casas.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🏠",
+              "🏠"
+            ],
+            "label": "dois: casas",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt-2-visual-frases",
+      "subject": "portuguese",
+      "level": 2,
+      "title": "Imagens completam frases",
+      "objective": "Lê a frase e observa a imagem para encontrar a palavra que falta.",
+      "introduction": "Lê a frase e observa a imagem para encontrar a palavra que falta.",
+      "exercises": [
+        {
+          "prompt": "Completa: «A Lina lê um __.»",
+          "choices": [
+            "sapato",
+            "copo",
+            "livro"
+          ],
+          "answer": 2,
+          "explanation": "A palavra que completa a frase é livro.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "📖"
+            ],
+            "label": "livro",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Completa: «O Rui chuta a __.»",
+          "choices": [
+            "água",
+            "casa",
+            "bola"
+          ],
+          "answer": 2,
+          "explanation": "A palavra que completa a frase é bola.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "⚽"
+            ],
+            "label": "bola",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Completa: «A Sara bebe __.»",
+          "choices": [
+            "água",
+            "mala",
+            "livro"
+          ],
+          "answer": 0,
+          "explanation": "A palavra que completa a frase é água.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "💧"
+            ],
+            "label": "água",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Completa: «A Bia leva os livros na __.»",
+          "choices": [
+            "mochila",
+            "flor",
+            "lua"
+          ],
+          "answer": 0,
+          "explanation": "A palavra que completa a frase é mochila.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🎒"
+            ],
+            "label": "mochila",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt-2-visual-accoes",
+      "subject": "portuguese",
+      "level": 2,
+      "title": "O que estamos a fazer?",
+      "objective": "As palavras de acção contam o que fazemos. Observa os objectos e lê a situação.",
+      "introduction": "As palavras de acção contam o que fazemos. Observa os objectos e lê a situação.",
+      "exercises": [
+        {
+          "prompt": "O Rui está com um livro aberto. O que faz?",
+          "choices": [
+            "Dorme",
+            "Lê",
+            "Corre"
+          ],
+          "answer": 1,
+          "explanation": "A acção descrita é: lê.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👦",
+              "📖"
+            ],
+            "label": "Objectos da acção descrita",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "A Ana leva um copo de água à boca. O que faz?",
+          "choices": [
+            "Salta",
+            "Escreve",
+            "Bebe"
+          ],
+          "answer": 2,
+          "explanation": "A acção descrita é: bebe.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👧",
+              "🥛",
+              "💧"
+            ],
+            "label": "Objectos da acção descrita",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "O Paulo usa um lápis no caderno. O que faz?",
+          "choices": [
+            "Nada",
+            "Dorme",
+            "Escreve"
+          ],
+          "answer": 2,
+          "explanation": "A acção descrita é: escreve.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👦",
+              "✏️",
+              "📓"
+            ],
+            "label": "Objectos da acção descrita",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "A Bia dá pontapés numa bola. O que faz?",
+          "choices": [
+            "Lê",
+            "Bebe",
+            "Joga"
+          ],
+          "answer": 2,
+          "explanation": "A acção descrita é: joga.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👧",
+              "⚽"
+            ],
+            "label": "Objectos da acção descrita",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt-2-visual-lugares",
+      "subject": "portuguese",
+      "level": 2,
+      "title": "Palavras de posição",
+      "objective": "Dentro, fora, perto, longe, em cima e debaixo ajudam a indicar posições.",
+      "introduction": "Dentro, fora, perto, longe, em cima e debaixo ajudam a indicar posições.",
+      "exercises": [
+        {
+          "prompt": "O gato está dentro da casa. Onde está?",
+          "choices": [
+            "Dentro",
+            "Longe",
+            "Fora"
+          ],
+          "answer": 0,
+          "explanation": "A frase diz: dentro. As imagens mostram os objectos; lê a frase para descobrir a posição.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🐈",
+              "🏠"
+            ],
+            "label": "Objectos da frase; a posição está descrita no texto",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "A bola está debaixo da mesa. Onde está?",
+          "choices": [
+            "Em cima",
+            "Dentro",
+            "Debaixo"
+          ],
+          "answer": 2,
+          "explanation": "A frase diz: debaixo. As imagens mostram os objectos; lê a frase para descobrir a posição.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "⚽",
+              "🪑"
+            ],
+            "label": "Objectos da frase; a posição está descrita no texto",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "A escola fica perto da casa. Como fica?",
+          "choices": [
+            "Debaixo",
+            "Longe",
+            "Perto"
+          ],
+          "answer": 2,
+          "explanation": "A frase diz: perto. As imagens mostram os objectos; lê a frase para descobrir a posição.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🏫",
+              "🏠"
+            ],
+            "label": "Objectos da frase; a posição está descrita no texto",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "A mochila está em cima da cadeira. Onde está?",
+          "choices": [
+            "Debaixo",
+            "Dentro",
+            "Em cima"
+          ],
+          "answer": 2,
+          "explanation": "A frase diz: em cima. As imagens mostram os objectos; lê a frase para descobrir a posição.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🎒",
+              "🪑"
+            ],
+            "label": "Objectos da frase; a posição está descrita no texto",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt-3-visual-horta",
+      "subject": "portuguese",
+      "level": 3,
+      "title": "Na horta",
+      "objective": "A Ana vai à horta com a mãe. Levam água num balde. Regam as plantas de manhã. Depois, guardam o balde.",
+      "introduction": "A Ana vai à horta com a mãe. Levam água num balde. Regam as plantas de manhã. Depois, guardam o balde.",
+      "exercises": [
+        {
+          "prompt": "Quem vai à horta?",
+          "choices": [
+            "O Rui",
+            "A Ana",
+            "O Paulo"
+          ],
+          "answer": 1,
+          "explanation": "No texto: a ana.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👧",
+              "💧",
+              "🌱"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Com quem vai a Ana?",
+          "choices": [
+            "Com o avô",
+            "Sozinha",
+            "Com a mãe"
+          ],
+          "answer": 2,
+          "explanation": "No texto: com a mãe.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👧",
+              "💧",
+              "🌱"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "O que levam no balde?",
+          "choices": [
+            "Livros",
+            "Bolas",
+            "Água"
+          ],
+          "answer": 2,
+          "explanation": "No texto: água.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👧",
+              "💧",
+              "🌱"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "O que fazem depois de regar?",
+          "choices": [
+            "Guardam o balde",
+            "Compram fruta",
+            "Vão nadar"
+          ],
+          "answer": 0,
+          "explanation": "No texto: guardam o balde.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👧",
+              "💧",
+              "🌱"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt-3-visual-praia",
+      "subject": "portuguese",
+      "level": 3,
+      "title": "Conchas na praia",
+      "objective": "O Rui vai à praia com o pai. Encontra uma concha na areia. Mostra a concha ao pai. No fim, deixam a praia limpa.",
+      "introduction": "O Rui vai à praia com o pai. Encontra uma concha na areia. Mostra a concha ao pai. No fim, deixam a praia limpa.",
+      "exercises": [
+        {
+          "prompt": "Onde vai o Rui?",
+          "choices": [
+            "À escola",
+            "Ao mercado",
+            "À praia"
+          ],
+          "answer": 2,
+          "explanation": "No texto: à praia.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👦",
+              "🏖️",
+              "🐚"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Com quem vai?",
+          "choices": [
+            "Com a avó",
+            "Com a mãe",
+            "Com o pai"
+          ],
+          "answer": 2,
+          "explanation": "No texto: com o pai.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👦",
+              "🏖️",
+              "🐚"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "O que encontra?",
+          "choices": [
+            "Uma concha",
+            "Um livro",
+            "Um lápis"
+          ],
+          "answer": 0,
+          "explanation": "No texto: uma concha.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👦",
+              "🏖️",
+              "🐚"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Como deixam a praia?",
+          "choices": [
+            "Pintada",
+            "Com lixo",
+            "Limpa"
+          ],
+          "answer": 2,
+          "explanation": "No texto: limpa.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👦",
+              "🏖️",
+              "🐚"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt-3-visual-biblioteca",
+      "subject": "portuguese",
+      "level": 3,
+      "title": "Um livro para a Bia",
+      "objective": "A Bia entra na biblioteca. Escolhe um livro sobre animais. Senta-se numa cadeira e lê. Depois, devolve o livro.",
+      "introduction": "A Bia entra na biblioteca. Escolhe um livro sobre animais. Senta-se numa cadeira e lê. Depois, devolve o livro.",
+      "exercises": [
+        {
+          "prompt": "Onde entra a Bia?",
+          "choices": [
+            "Na horta",
+            "No barco",
+            "Na biblioteca"
+          ],
+          "answer": 2,
+          "explanation": "No texto: na biblioteca.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👧",
+              "📖",
+              "🐈"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Sobre o que é o livro?",
+          "choices": [
+            "Animais",
+            "Carros",
+            "Números"
+          ],
+          "answer": 0,
+          "explanation": "No texto: animais.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👧",
+              "📖",
+              "🐈"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Onde se senta?",
+          "choices": [
+            "Numa cadeira",
+            "Na areia",
+            "Num barco"
+          ],
+          "answer": 0,
+          "explanation": "No texto: numa cadeira.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👧",
+              "📖",
+              "🐈"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "O que faz no fim?",
+          "choices": [
+            "Esconde o livro",
+            "Devolve o livro",
+            "Rasga o livro"
+          ],
+          "answer": 1,
+          "explanation": "No texto: devolve o livro.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👧",
+              "📖",
+              "🐈"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt-3-visual-lanche",
+      "subject": "portuguese",
+      "level": 3,
+      "title": "Um lanche partilhado",
+      "objective": "O Paulo leva duas bananas para a escola. No intervalo, dá uma banana à Sara. Os dois comem sentados. Depois, colocam as cascas no lixo.",
+      "introduction": "O Paulo leva duas bananas para a escola. No intervalo, dá uma banana à Sara. Os dois comem sentados. Depois, colocam as cascas no lixo.",
+      "exercises": [
+        {
+          "prompt": "Que fruta leva o Paulo?",
+          "choices": [
+            "Bananas",
+            "Uvas",
+            "Mangas"
+          ],
+          "answer": 0,
+          "explanation": "No texto: bananas.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👦",
+              "🍌",
+              "👧"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Para onde leva a fruta?",
+          "choices": [
+            "Para a praia",
+            "Para o barco",
+            "Para a escola"
+          ],
+          "answer": 2,
+          "explanation": "No texto: para a escola.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👦",
+              "🍌",
+              "👧"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Com quem partilha?",
+          "choices": [
+            "Com o Rui",
+            "Com a Ana",
+            "Com a Sara"
+          ],
+          "answer": 2,
+          "explanation": "No texto: com a sara.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👦",
+              "🍌",
+              "👧"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Onde colocam as cascas?",
+          "choices": [
+            "No chão",
+            "No livro",
+            "No lixo"
+          ],
+          "answer": 2,
+          "explanation": "No texto: no lixo.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👦",
+              "🍌",
+              "👧"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt-3-visual-chuva",
+      "subject": "portuguese",
+      "level": 3,
+      "title": "Um dia de chuva",
+      "objective": "A Ilda vê chuva pela janela. Calça os sapatos e pega no guarda-chuva. Vai à escola com a tia. À chegada, fecha o guarda-chuva.",
+      "introduction": "A Ilda vê chuva pela janela. Calça os sapatos e pega no guarda-chuva. Vai à escola com a tia. À chegada, fecha o guarda-chuva.",
+      "exercises": [
+        {
+          "prompt": "O que vê pela janela?",
+          "choices": [
+            "Chuva",
+            "Neve",
+            "Fogo"
+          ],
+          "answer": 0,
+          "explanation": "No texto: chuva.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🌧️",
+              "👟",
+              "☂️",
+              "🏫"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "O que pega para se proteger?",
+          "choices": [
+            "O guarda-chuva",
+            "Um prato",
+            "Uma bola"
+          ],
+          "answer": 0,
+          "explanation": "No texto: o guarda-chuva.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🌧️",
+              "👟",
+              "☂️",
+              "🏫"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Com quem vai à escola?",
+          "choices": [
+            "Com a tia",
+            "Com o avô",
+            "Sozinha"
+          ],
+          "answer": 0,
+          "explanation": "No texto: com a tia.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🌧️",
+              "👟",
+              "☂️",
+              "🏫"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "O que faz à chegada?",
+          "choices": [
+            "Vai dormir",
+            "Fecha o guarda-chuva",
+            "Abre o livro em casa"
+          ],
+          "answer": 1,
+          "explanation": "No texto: fecha o guarda-chuva.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "🌧️",
+              "👟",
+              "☂️",
+              "🏫"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt-3-visual-amizade",
+      "subject": "portuguese",
+      "level": 3,
+      "title": "A bola encontrada",
+      "objective": "O Tomás encontra uma bola no pátio. A Lina procura a sua bola vermelha. O Tomás entrega-lhe a bola. A Lina agradece e convida-o a brincar.",
+      "introduction": "O Tomás encontra uma bola no pátio. A Lina procura a sua bola vermelha. O Tomás entrega-lhe a bola. A Lina agradece e convida-o a brincar.",
+      "exercises": [
+        {
+          "prompt": "Onde encontra a bola?",
+          "choices": [
+            "Na horta",
+            "No mar",
+            "No pátio"
+          ],
+          "answer": 2,
+          "explanation": "No texto: no pátio.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👦",
+              "⚽",
+              "👧"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Quem procura a bola?",
+          "choices": [
+            "O Rui",
+            "A Lina",
+            "A Sara"
+          ],
+          "answer": 1,
+          "explanation": "No texto: a lina.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👦",
+              "⚽",
+              "👧"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "O que faz o Tomás?",
+          "choices": [
+            "Esconde a bola",
+            "Entrega a bola",
+            "Fura a bola"
+          ],
+          "answer": 1,
+          "explanation": "No texto: entrega a bola.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👦",
+              "⚽",
+              "👧"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "O que faz a Lina no fim?",
+          "choices": [
+            "Deita a bola fora",
+            "Convida-o a brincar",
+            "Vai dormir"
+          ],
+          "answer": 1,
+          "explanation": "No texto: convida-o a brincar.",
+          "visual": {
+            "kind": "picture",
+            "tokens": [
+              "👦",
+              "⚽",
+              "👧"
+            ],
+            "label": "Imagens que acompanham a história",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-1-visual-contar1",
+      "subject": "math",
+      "level": 1,
+      "title": "Contar os animais",
+      "objective": "Aponta para cada imagem uma só vez e conta em voz alta.",
+      "introduction": "Aponta para cada imagem uma só vez e conta em voz alta.",
+      "exercises": [
+        {
+          "prompt": "Conta os objectos na imagem. Quantos são?",
+          "choices": [
+            "3",
+            "2",
+            "1"
+          ],
+          "answer": 2,
+          "explanation": "Contando um a um, encontramos 1 objectos.",
+          "visual": {
+            "kind": "count",
+            "tokens": [
+              "🐟"
+            ],
+            "label": "Objectos para contar",
+            "left": 1,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Conta os objectos na imagem. Quantos são?",
+          "choices": [
+            "2",
+            "3",
+            "1"
+          ],
+          "answer": 0,
+          "explanation": "Contando um a um, encontramos 2 objectos.",
+          "visual": {
+            "kind": "count",
+            "tokens": [
+              "🐟"
+            ],
+            "label": "Objectos para contar",
+            "left": 2,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Conta os objectos na imagem. Quantos são?",
+          "choices": [
+            "3",
+            "4",
+            "2"
+          ],
+          "answer": 0,
+          "explanation": "Contando um a um, encontramos 3 objectos.",
+          "visual": {
+            "kind": "count",
+            "tokens": [
+              "🐟"
+            ],
+            "label": "Objectos para contar",
+            "left": 3,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Conta os objectos na imagem. Quantos são?",
+          "choices": [
+            "4",
+            "3",
+            "5"
+          ],
+          "answer": 0,
+          "explanation": "Contando um a um, encontramos 4 objectos.",
+          "visual": {
+            "kind": "count",
+            "tokens": [
+              "🐟"
+            ],
+            "label": "Objectos para contar",
+            "left": 4,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-1-visual-contar2",
+      "subject": "math",
+      "level": 1,
+      "title": "Contar a fruta",
+      "objective": "Aponta para cada imagem uma só vez e conta em voz alta.",
+      "introduction": "Aponta para cada imagem uma só vez e conta em voz alta.",
+      "exercises": [
+        {
+          "prompt": "Conta os objectos na imagem. Quantos são?",
+          "choices": [
+            "6",
+            "4",
+            "5"
+          ],
+          "answer": 2,
+          "explanation": "Contando um a um, encontramos 5 objectos.",
+          "visual": {
+            "kind": "count",
+            "tokens": [
+              "🍌"
+            ],
+            "label": "Objectos para contar",
+            "left": 5,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Conta os objectos na imagem. Quantos são?",
+          "choices": [
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": 1,
+          "explanation": "Contando um a um, encontramos 6 objectos.",
+          "visual": {
+            "kind": "count",
+            "tokens": [
+              "🍌"
+            ],
+            "label": "Objectos para contar",
+            "left": 6,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Conta os objectos na imagem. Quantos são?",
+          "choices": [
+            "6",
+            "7",
+            "8"
+          ],
+          "answer": 1,
+          "explanation": "Contando um a um, encontramos 7 objectos.",
+          "visual": {
+            "kind": "count",
+            "tokens": [
+              "🍌"
+            ],
+            "label": "Objectos para contar",
+            "left": 7,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Conta os objectos na imagem. Quantos são?",
+          "choices": [
+            "8",
+            "7",
+            "9"
+          ],
+          "answer": 0,
+          "explanation": "Contando um a um, encontramos 8 objectos.",
+          "visual": {
+            "kind": "count",
+            "tokens": [
+              "🍌"
+            ],
+            "label": "Objectos para contar",
+            "left": 8,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-1-visual-contar3",
+      "subject": "math",
+      "level": 1,
+      "title": "Contar até dez",
+      "objective": "Aponta para cada imagem uma só vez e conta em voz alta.",
+      "introduction": "Aponta para cada imagem uma só vez e conta em voz alta.",
+      "exercises": [
+        {
+          "prompt": "Conta os objectos na imagem. Quantos são?",
+          "choices": [
+            "10",
+            "9",
+            "8"
+          ],
+          "answer": 1,
+          "explanation": "Contando um a um, encontramos 9 objectos.",
+          "visual": {
+            "kind": "count",
+            "tokens": [
+              "🌼"
+            ],
+            "label": "Objectos para contar",
+            "left": 9,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Conta os objectos na imagem. Quantos são?",
+          "choices": [
+            "10",
+            "11",
+            "9"
+          ],
+          "answer": 0,
+          "explanation": "Contando um a um, encontramos 10 objectos.",
+          "visual": {
+            "kind": "count",
+            "tokens": [
+              "🌼"
+            ],
+            "label": "Objectos para contar",
+            "left": 10,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Conta os objectos na imagem. Quantos são?",
+          "choices": [
+            "7",
+            "6",
+            "5"
+          ],
+          "answer": 1,
+          "explanation": "Contando um a um, encontramos 6 objectos.",
+          "visual": {
+            "kind": "count",
+            "tokens": [
+              "🌼"
+            ],
+            "label": "Objectos para contar",
+            "left": 6,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Conta os objectos na imagem. Quantos são?",
+          "choices": [
+            "9",
+            "7",
+            "8"
+          ],
+          "answer": 2,
+          "explanation": "Contando um a um, encontramos 8 objectos.",
+          "visual": {
+            "kind": "count",
+            "tokens": [
+              "🌼"
+            ],
+            "label": "Objectos para contar",
+            "left": 8,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-1-visual-sequencia",
+      "subject": "math",
+      "level": 1,
+      "title": "O número que falta",
+      "objective": "Conta por ordem e descobre o número escondido.",
+      "introduction": "Conta por ordem e descobre o número escondido.",
+      "exercises": [
+        {
+          "prompt": "Completa: 1, 2, __, 4.",
+          "choices": [
+            "3",
+            "4",
+            "2"
+          ],
+          "answer": 0,
+          "explanation": "Os números seguem a ordem: 1, 2, 3, 4.",
+          "visual": {
+            "kind": "sequence",
+            "tokens": [
+              "1",
+              "2",
+              "?",
+              "4"
+            ],
+            "label": "Sequência de números",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Completa: 3, 4, __, 6.",
+          "choices": [
+            "5",
+            "6",
+            "4"
+          ],
+          "answer": 0,
+          "explanation": "Os números seguem a ordem: 3, 4, 5, 6.",
+          "visual": {
+            "kind": "sequence",
+            "tokens": [
+              "3",
+              "4",
+              "?",
+              "6"
+            ],
+            "label": "Sequência de números",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Completa: 5, 6, __, 8.",
+          "choices": [
+            "8",
+            "6",
+            "7"
+          ],
+          "answer": 2,
+          "explanation": "Os números seguem a ordem: 5, 6, 7, 8.",
+          "visual": {
+            "kind": "sequence",
+            "tokens": [
+              "5",
+              "6",
+              "?",
+              "8"
+            ],
+            "label": "Sequência de números",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Completa: 7, 8, __, 10.",
+          "choices": [
+            "9",
+            "8",
+            "10"
+          ],
+          "answer": 0,
+          "explanation": "Os números seguem a ordem: 7, 8, 9, 10.",
+          "visual": {
+            "kind": "sequence",
+            "tokens": [
+              "7",
+              "8",
+              "?",
+              "10"
+            ],
+            "label": "Sequência de números",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-1-visual-comparar1",
+      "subject": "math",
+      "level": 1,
+      "title": "Mais ou menos?",
+      "objective": "Conta cada grupo. Mais significa uma quantidade maior.",
+      "introduction": "Conta cada grupo. Mais significa uma quantidade maior.",
+      "exercises": [
+        {
+          "prompt": "Qual grupo tem mais objectos?",
+          "choices": [
+            "Grupo B",
+            "Grupo A",
+            "Têm a mesma quantidade"
+          ],
+          "answer": 0,
+          "explanation": "O grupo com 4 objectos tem mais do que o grupo com 2.",
+          "visual": {
+            "kind": "compare",
+            "tokens": [
+              "⭐"
+            ],
+            "label": "Dois grupos para comparar",
+            "left": 2,
+            "right": 4
+          }
+        },
+        {
+          "prompt": "Qual grupo tem mais objectos?",
+          "choices": [
+            "Têm a mesma quantidade",
+            "Grupo B",
+            "Grupo A"
+          ],
+          "answer": 2,
+          "explanation": "O grupo com 5 objectos tem mais do que o grupo com 3.",
+          "visual": {
+            "kind": "compare",
+            "tokens": [
+              "⭐"
+            ],
+            "label": "Dois grupos para comparar",
+            "left": 5,
+            "right": 3
+          }
+        },
+        {
+          "prompt": "Qual grupo tem mais objectos?",
+          "choices": [
+            "Grupo A",
+            "Grupo B",
+            "Têm a mesma quantidade"
+          ],
+          "answer": 1,
+          "explanation": "O grupo com 3 objectos tem mais do que o grupo com 1.",
+          "visual": {
+            "kind": "compare",
+            "tokens": [
+              "⭐"
+            ],
+            "label": "Dois grupos para comparar",
+            "left": 1,
+            "right": 3
+          }
+        },
+        {
+          "prompt": "Qual grupo tem mais objectos?",
+          "choices": [
+            "Grupo A",
+            "Grupo B",
+            "Têm a mesma quantidade"
+          ],
+          "answer": 0,
+          "explanation": "O grupo com 6 objectos tem mais do que o grupo com 4.",
+          "visual": {
+            "kind": "compare",
+            "tokens": [
+              "⭐"
+            ],
+            "label": "Dois grupos para comparar",
+            "left": 6,
+            "right": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-1-visual-comparar2",
+      "subject": "math",
+      "level": 1,
+      "title": "Grupos diferentes",
+      "objective": "Conta cada grupo. Mais significa uma quantidade maior.",
+      "introduction": "Conta cada grupo. Mais significa uma quantidade maior.",
+      "exercises": [
+        {
+          "prompt": "Qual grupo tem mais objectos?",
+          "choices": [
+            "Têm a mesma quantidade",
+            "Grupo A",
+            "Grupo B"
+          ],
+          "answer": 2,
+          "explanation": "O grupo com 9 objectos tem mais do que o grupo com 7.",
+          "visual": {
+            "kind": "compare",
+            "tokens": [
+              "⭐"
+            ],
+            "label": "Dois grupos para comparar",
+            "left": 7,
+            "right": 9
+          }
+        },
+        {
+          "prompt": "Qual grupo tem mais objectos?",
+          "choices": [
+            "Grupo A",
+            "Grupo B",
+            "Têm a mesma quantidade"
+          ],
+          "answer": 0,
+          "explanation": "O grupo com 8 objectos tem mais do que o grupo com 6.",
+          "visual": {
+            "kind": "compare",
+            "tokens": [
+              "⭐"
+            ],
+            "label": "Dois grupos para comparar",
+            "left": 8,
+            "right": 6
+          }
+        },
+        {
+          "prompt": "Qual grupo tem mais objectos?",
+          "choices": [
+            "Têm a mesma quantidade",
+            "Grupo B",
+            "Grupo A"
+          ],
+          "answer": 1,
+          "explanation": "O grupo com 7 objectos tem mais do que o grupo com 4.",
+          "visual": {
+            "kind": "compare",
+            "tokens": [
+              "⭐"
+            ],
+            "label": "Dois grupos para comparar",
+            "left": 4,
+            "right": 7
+          }
+        },
+        {
+          "prompt": "Qual grupo tem mais objectos?",
+          "choices": [
+            "Têm a mesma quantidade",
+            "Grupo B",
+            "Grupo A"
+          ],
+          "answer": 2,
+          "explanation": "O grupo com 10 objectos tem mais do que o grupo com 8.",
+          "visual": {
+            "kind": "compare",
+            "tokens": [
+              "⭐"
+            ],
+            "label": "Dois grupos para comparar",
+            "left": 10,
+            "right": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-1-visual-formas2",
+      "subject": "math",
+      "level": 1,
+      "title": "Formas nas imagens",
+      "objective": "Observa o contorno de cada forma e procura o seu nome.",
+      "introduction": "Observa o contorno de cada forma e procura o seu nome.",
+      "exercises": [
+        {
+          "prompt": "Qual é o nome desta forma?",
+          "choices": [
+            "círculo",
+            "triângulo",
+            "quadrado"
+          ],
+          "answer": 0,
+          "explanation": "É redondo e não tem lados rectos.",
+          "visual": {
+            "kind": "shape",
+            "tokens": [
+              "●"
+            ],
+            "label": "círculo",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Qual é o nome desta forma?",
+          "choices": [
+            "círculo",
+            "quadrado",
+            "triângulo"
+          ],
+          "answer": 2,
+          "explanation": "Tem três lados.",
+          "visual": {
+            "kind": "shape",
+            "tokens": [
+              "▲"
+            ],
+            "label": "triângulo",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Qual é o nome desta forma?",
+          "choices": [
+            "círculo",
+            "quadrado",
+            "triângulo"
+          ],
+          "answer": 1,
+          "explanation": "Tem quatro lados iguais e quatro cantos rectos.",
+          "visual": {
+            "kind": "shape",
+            "tokens": [
+              "■"
+            ],
+            "label": "quadrado",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Qual é o nome desta forma?",
+          "choices": [
+            "triângulo",
+            "rectângulo",
+            "círculo"
+          ],
+          "answer": 1,
+          "explanation": "Este rectângulo tem dois lados compridos e dois lados curtos.",
+          "visual": {
+            "kind": "shape",
+            "tokens": [
+              "▰"
+            ],
+            "label": "rectângulo",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-2-visual-somar1",
+      "subject": "math",
+      "level": 2,
+      "title": "Somar com fruta",
+      "objective": "Conta as imagens. Juntar é somar; riscar objectos é tirar.",
+      "introduction": "Conta as imagens. Juntar é somar; riscar objectos é tirar.",
+      "exercises": [
+        {
+          "prompt": "Junta 1 e 2. Quantos objectos ficam?",
+          "choices": [
+            "3",
+            "2",
+            "4"
+          ],
+          "answer": 0,
+          "explanation": "1 + 2 = 3.",
+          "visual": {
+            "kind": "addition",
+            "tokens": [
+              "🥭"
+            ],
+            "label": "Objectos para calcular",
+            "left": 1,
+            "right": 2
+          }
+        },
+        {
+          "prompt": "Junta 2 e 2. Quantos objectos ficam?",
+          "choices": [
+            "3",
+            "5",
+            "4"
+          ],
+          "answer": 2,
+          "explanation": "2 + 2 = 4.",
+          "visual": {
+            "kind": "addition",
+            "tokens": [
+              "🥭"
+            ],
+            "label": "Objectos para calcular",
+            "left": 2,
+            "right": 2
+          }
+        },
+        {
+          "prompt": "Junta 3 e 1. Quantos objectos ficam?",
+          "choices": [
+            "5",
+            "4",
+            "3"
+          ],
+          "answer": 1,
+          "explanation": "3 + 1 = 4.",
+          "visual": {
+            "kind": "addition",
+            "tokens": [
+              "🥭"
+            ],
+            "label": "Objectos para calcular",
+            "left": 3,
+            "right": 1
+          }
+        },
+        {
+          "prompt": "Junta 4 e 2. Quantos objectos ficam?",
+          "choices": [
+            "7",
+            "6",
+            "5"
+          ],
+          "answer": 1,
+          "explanation": "4 + 2 = 6.",
+          "visual": {
+            "kind": "addition",
+            "tokens": [
+              "🥭"
+            ],
+            "label": "Objectos para calcular",
+            "left": 4,
+            "right": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-2-visual-somar2",
+      "subject": "math",
+      "level": 2,
+      "title": "Somar com animais",
+      "objective": "Conta as imagens. Juntar é somar; riscar objectos é tirar.",
+      "introduction": "Conta as imagens. Juntar é somar; riscar objectos é tirar.",
+      "exercises": [
+        {
+          "prompt": "Junta 3 e 3. Quantos objectos ficam?",
+          "choices": [
+            "6",
+            "7",
+            "5"
+          ],
+          "answer": 0,
+          "explanation": "3 + 3 = 6.",
+          "visual": {
+            "kind": "addition",
+            "tokens": [
+              "🐟"
+            ],
+            "label": "Objectos para calcular",
+            "left": 3,
+            "right": 3
+          }
+        },
+        {
+          "prompt": "Junta 4 e 3. Quantos objectos ficam?",
+          "choices": [
+            "6",
+            "7",
+            "8"
+          ],
+          "answer": 1,
+          "explanation": "4 + 3 = 7.",
+          "visual": {
+            "kind": "addition",
+            "tokens": [
+              "🐟"
+            ],
+            "label": "Objectos para calcular",
+            "left": 4,
+            "right": 3
+          }
+        },
+        {
+          "prompt": "Junta 5 e 4. Quantos objectos ficam?",
+          "choices": [
+            "9",
+            "8",
+            "10"
+          ],
+          "answer": 0,
+          "explanation": "5 + 4 = 9.",
+          "visual": {
+            "kind": "addition",
+            "tokens": [
+              "🐟"
+            ],
+            "label": "Objectos para calcular",
+            "left": 5,
+            "right": 4
+          }
+        },
+        {
+          "prompt": "Junta 2 e 6. Quantos objectos ficam?",
+          "choices": [
+            "8",
+            "9",
+            "7"
+          ],
+          "answer": 0,
+          "explanation": "2 + 6 = 8.",
+          "visual": {
+            "kind": "addition",
+            "tokens": [
+              "🐟"
+            ],
+            "label": "Objectos para calcular",
+            "left": 2,
+            "right": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-2-visual-tirar1",
+      "subject": "math",
+      "level": 2,
+      "title": "Tirar com fruta",
+      "objective": "Conta as imagens. Juntar é somar; riscar objectos é tirar.",
+      "introduction": "Conta as imagens. Juntar é somar; riscar objectos é tirar.",
+      "exercises": [
+        {
+          "prompt": "Há 4 objectos. Tira 1. Quantos ficam?",
+          "choices": [
+            "3",
+            "4",
+            "2"
+          ],
+          "answer": 0,
+          "explanation": "4 − 1 = 3.",
+          "visual": {
+            "kind": "subtraction",
+            "tokens": [
+              "🍌"
+            ],
+            "label": "Objectos para calcular",
+            "left": 4,
+            "right": 1
+          }
+        },
+        {
+          "prompt": "Há 6 objectos. Tira 2. Quantos ficam?",
+          "choices": [
+            "3",
+            "5",
+            "4"
+          ],
+          "answer": 2,
+          "explanation": "6 − 2 = 4.",
+          "visual": {
+            "kind": "subtraction",
+            "tokens": [
+              "🍌"
+            ],
+            "label": "Objectos para calcular",
+            "left": 6,
+            "right": 2
+          }
+        },
+        {
+          "prompt": "Há 7 objectos. Tira 3. Quantos ficam?",
+          "choices": [
+            "4",
+            "5",
+            "3"
+          ],
+          "answer": 0,
+          "explanation": "7 − 3 = 4.",
+          "visual": {
+            "kind": "subtraction",
+            "tokens": [
+              "🍌"
+            ],
+            "label": "Objectos para calcular",
+            "left": 7,
+            "right": 3
+          }
+        },
+        {
+          "prompt": "Há 5 objectos. Tira 1. Quantos ficam?",
+          "choices": [
+            "5",
+            "3",
+            "4"
+          ],
+          "answer": 2,
+          "explanation": "5 − 1 = 4.",
+          "visual": {
+            "kind": "subtraction",
+            "tokens": [
+              "🍌"
+            ],
+            "label": "Objectos para calcular",
+            "left": 5,
+            "right": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-2-visual-tirar2",
+      "subject": "math",
+      "level": 2,
+      "title": "Tirar com flores",
+      "objective": "Conta as imagens. Juntar é somar; riscar objectos é tirar.",
+      "introduction": "Conta as imagens. Juntar é somar; riscar objectos é tirar.",
+      "exercises": [
+        {
+          "prompt": "Há 8 objectos. Tira 2. Quantos ficam?",
+          "choices": [
+            "6",
+            "7",
+            "5"
+          ],
+          "answer": 0,
+          "explanation": "8 − 2 = 6.",
+          "visual": {
+            "kind": "subtraction",
+            "tokens": [
+              "🌼"
+            ],
+            "label": "Objectos para calcular",
+            "left": 8,
+            "right": 2
+          }
+        },
+        {
+          "prompt": "Há 9 objectos. Tira 4. Quantos ficam?",
+          "choices": [
+            "5",
+            "4",
+            "6"
+          ],
+          "answer": 0,
+          "explanation": "9 − 4 = 5.",
+          "visual": {
+            "kind": "subtraction",
+            "tokens": [
+              "🌼"
+            ],
+            "label": "Objectos para calcular",
+            "left": 9,
+            "right": 4
+          }
+        },
+        {
+          "prompt": "Há 10 objectos. Tira 3. Quantos ficam?",
+          "choices": [
+            "6",
+            "8",
+            "7"
+          ],
+          "answer": 2,
+          "explanation": "10 − 3 = 7.",
+          "visual": {
+            "kind": "subtraction",
+            "tokens": [
+              "🌼"
+            ],
+            "label": "Objectos para calcular",
+            "left": 10,
+            "right": 3
+          }
+        },
+        {
+          "prompt": "Há 6 objectos. Tira 5. Quantos ficam?",
+          "choices": [
+            "3",
+            "1",
+            "2"
+          ],
+          "answer": 1,
+          "explanation": "6 − 5 = 1.",
+          "visual": {
+            "kind": "subtraction",
+            "tokens": [
+              "🌼"
+            ],
+            "label": "Objectos para calcular",
+            "left": 6,
+            "right": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-2-visual-maiores",
+      "subject": "math",
+      "level": 2,
+      "title": "Comparar até vinte",
+      "objective": "Compara os dois números. As imagens ajudam a comparar as quantidades.",
+      "introduction": "Compara os dois números. As imagens ajudam a comparar as quantidades.",
+      "exercises": [
+        {
+          "prompt": "Qual número é maior: 11 ou 13?",
+          "choices": [
+            "São iguais",
+            "11",
+            "13"
+          ],
+          "answer": 2,
+          "explanation": "13 é maior do que 11.",
+          "visual": {
+            "kind": "compare",
+            "tokens": [
+              "🔵"
+            ],
+            "label": "Grupos com estas quantidades",
+            "left": 11,
+            "right": 13
+          }
+        },
+        {
+          "prompt": "Qual número é maior: 15 ou 12?",
+          "choices": [
+            "12",
+            "São iguais",
+            "15"
+          ],
+          "answer": 2,
+          "explanation": "15 é maior do que 12.",
+          "visual": {
+            "kind": "compare",
+            "tokens": [
+              "🔵"
+            ],
+            "label": "Grupos com estas quantidades",
+            "left": 15,
+            "right": 12
+          }
+        },
+        {
+          "prompt": "Qual número é maior: 16 ou 19?",
+          "choices": [
+            "19",
+            "São iguais",
+            "16"
+          ],
+          "answer": 0,
+          "explanation": "19 é maior do que 16.",
+          "visual": {
+            "kind": "compare",
+            "tokens": [
+              "🔵"
+            ],
+            "label": "Grupos com estas quantidades",
+            "left": 16,
+            "right": 19
+          }
+        },
+        {
+          "prompt": "Qual número é maior: 20 ou 17?",
+          "choices": [
+            "20",
+            "17",
+            "São iguais"
+          ],
+          "answer": 0,
+          "explanation": "20 é maior do que 17.",
+          "visual": {
+            "kind": "compare",
+            "tokens": [
+              "🔵"
+            ],
+            "label": "Grupos com estas quantidades",
+            "left": 20,
+            "right": 17
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-2-visual-padroes2",
+      "subject": "math",
+      "level": 2,
+      "title": "Saltos nos números",
+      "objective": "Procura quanto se acrescenta de cada vez para continuar o padrão.",
+      "introduction": "Procura quanto se acrescenta de cada vez para continuar o padrão.",
+      "exercises": [
+        {
+          "prompt": "Completa: 1, 3, 5, __.",
+          "choices": [
+            "8",
+            "7",
+            "6"
+          ],
+          "answer": 1,
+          "explanation": "A regra é acrescentar 2. O próximo número é 7.",
+          "visual": {
+            "kind": "sequence",
+            "tokens": [
+              "1",
+              "3",
+              "5",
+              "?"
+            ],
+            "label": "Padrão de números",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Completa: 2, 4, 6, __.",
+          "choices": [
+            "7",
+            "9",
+            "8"
+          ],
+          "answer": 2,
+          "explanation": "A regra é acrescentar 2. O próximo número é 8.",
+          "visual": {
+            "kind": "sequence",
+            "tokens": [
+              "2",
+              "4",
+              "6",
+              "?"
+            ],
+            "label": "Padrão de números",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Completa: 3, 6, 9, __.",
+          "choices": [
+            "13",
+            "12",
+            "11"
+          ],
+          "answer": 1,
+          "explanation": "A regra é acrescentar 3. O próximo número é 12.",
+          "visual": {
+            "kind": "sequence",
+            "tokens": [
+              "3",
+              "6",
+              "9",
+              "?"
+            ],
+            "label": "Padrão de números",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Completa: 5, 10, 15, __.",
+          "choices": [
+            "19",
+            "21",
+            "20"
+          ],
+          "answer": 2,
+          "explanation": "A regra é acrescentar 5. O próximo número é 20.",
+          "visual": {
+            "kind": "sequence",
+            "tokens": [
+              "5",
+              "10",
+              "15",
+              "?"
+            ],
+            "label": "Padrão de números",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-3-visual-problemas1",
+      "subject": "math",
+      "level": 3,
+      "title": "Um cesto de mangas",
+      "objective": "Lê a situação e usa as imagens para juntar ou tirar quantidades.",
+      "introduction": "Lê a situação e usa as imagens para juntar ou tirar quantidades.",
+      "exercises": [
+        {
+          "prompt": "Junta 8 e 3. Quantos objectos ficam?",
+          "choices": [
+            "12",
+            "10",
+            "11"
+          ],
+          "answer": 2,
+          "explanation": "8 + 3 = 11.",
+          "visual": {
+            "kind": "addition",
+            "tokens": [
+              "🥭"
+            ],
+            "label": "Objectos para calcular",
+            "left": 8,
+            "right": 3
+          }
+        },
+        {
+          "prompt": "Há 12 objectos. Tira 2. Quantos ficam?",
+          "choices": [
+            "10",
+            "9",
+            "11"
+          ],
+          "answer": 0,
+          "explanation": "12 − 2 = 10.",
+          "visual": {
+            "kind": "subtraction",
+            "tokens": [
+              "🥭"
+            ],
+            "label": "Objectos para calcular",
+            "left": 12,
+            "right": 2
+          }
+        },
+        {
+          "prompt": "Junta 9 e 5. Quantos objectos ficam?",
+          "choices": [
+            "14",
+            "13",
+            "15"
+          ],
+          "answer": 0,
+          "explanation": "9 + 5 = 14.",
+          "visual": {
+            "kind": "addition",
+            "tokens": [
+              "🥭"
+            ],
+            "label": "Objectos para calcular",
+            "left": 9,
+            "right": 5
+          }
+        },
+        {
+          "prompt": "Há 15 objectos. Tira 3. Quantos ficam?",
+          "choices": [
+            "12",
+            "11",
+            "13"
+          ],
+          "answer": 0,
+          "explanation": "15 − 3 = 12.",
+          "visual": {
+            "kind": "subtraction",
+            "tokens": [
+              "🥭"
+            ],
+            "label": "Objectos para calcular",
+            "left": 15,
+            "right": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-3-visual-problemas2",
+      "subject": "math",
+      "level": 3,
+      "title": "Peixes no lago",
+      "objective": "Lê a situação e usa as imagens para juntar ou tirar quantidades.",
+      "introduction": "Lê a situação e usa as imagens para juntar ou tirar quantidades.",
+      "exercises": [
+        {
+          "prompt": "Junta 7 e 6. Quantos objectos ficam?",
+          "choices": [
+            "12",
+            "14",
+            "13"
+          ],
+          "answer": 2,
+          "explanation": "7 + 6 = 13.",
+          "visual": {
+            "kind": "addition",
+            "tokens": [
+              "🐟"
+            ],
+            "label": "Objectos para calcular",
+            "left": 7,
+            "right": 6
+          }
+        },
+        {
+          "prompt": "Há 14 objectos. Tira 4. Quantos ficam?",
+          "choices": [
+            "9",
+            "11",
+            "10"
+          ],
+          "answer": 2,
+          "explanation": "14 − 4 = 10.",
+          "visual": {
+            "kind": "subtraction",
+            "tokens": [
+              "🐟"
+            ],
+            "label": "Objectos para calcular",
+            "left": 14,
+            "right": 4
+          }
+        },
+        {
+          "prompt": "Junta 8 e 8. Quantos objectos ficam?",
+          "choices": [
+            "16",
+            "17",
+            "15"
+          ],
+          "answer": 0,
+          "explanation": "8 + 8 = 16.",
+          "visual": {
+            "kind": "addition",
+            "tokens": [
+              "🐟"
+            ],
+            "label": "Objectos para calcular",
+            "left": 8,
+            "right": 8
+          }
+        },
+        {
+          "prompt": "Há 18 objectos. Tira 5. Quantos ficam?",
+          "choices": [
+            "13",
+            "14",
+            "12"
+          ],
+          "answer": 0,
+          "explanation": "18 − 5 = 13.",
+          "visual": {
+            "kind": "subtraction",
+            "tokens": [
+              "🐟"
+            ],
+            "label": "Objectos para calcular",
+            "left": 18,
+            "right": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-3-visual-dezenas",
+      "subject": "math",
+      "level": 3,
+      "title": "Dez e mais alguns",
+      "objective": "Uma dezena é um grupo de dez objectos. Junta as unidades ao grupo de dez.",
+      "introduction": "Uma dezena é um grupo de dez objectos. Junta as unidades ao grupo de dez.",
+      "exercises": [
+        {
+          "prompt": "Uma dezena e 1 unidade(s) formam que número?",
+          "choices": [
+            "11",
+            "10",
+            "12"
+          ],
+          "answer": 0,
+          "explanation": "Uma dezena são dez. 10 + 1 = 11.",
+          "visual": {
+            "kind": "addition",
+            "tokens": [
+              "🔵"
+            ],
+            "label": "Uma dezena e unidades",
+            "left": 10,
+            "right": 1
+          }
+        },
+        {
+          "prompt": "Uma dezena e 3 unidade(s) formam que número?",
+          "choices": [
+            "13",
+            "12",
+            "14"
+          ],
+          "answer": 0,
+          "explanation": "Uma dezena são dez. 10 + 3 = 13.",
+          "visual": {
+            "kind": "addition",
+            "tokens": [
+              "🔵"
+            ],
+            "label": "Uma dezena e unidades",
+            "left": 10,
+            "right": 3
+          }
+        },
+        {
+          "prompt": "Uma dezena e 6 unidade(s) formam que número?",
+          "choices": [
+            "17",
+            "16",
+            "15"
+          ],
+          "answer": 1,
+          "explanation": "Uma dezena são dez. 10 + 6 = 16.",
+          "visual": {
+            "kind": "addition",
+            "tokens": [
+              "🔵"
+            ],
+            "label": "Uma dezena e unidades",
+            "left": 10,
+            "right": 6
+          }
+        },
+        {
+          "prompt": "Uma dezena e 9 unidade(s) formam que número?",
+          "choices": [
+            "18",
+            "20",
+            "19"
+          ],
+          "answer": 2,
+          "explanation": "Uma dezena são dez. 10 + 9 = 19.",
+          "visual": {
+            "kind": "addition",
+            "tokens": [
+              "🔵"
+            ],
+            "label": "Uma dezena e unidades",
+            "left": 10,
+            "right": 9
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-3-visual-formas-padrao",
+      "subject": "math",
+      "level": 3,
+      "title": "Formas que se repetem",
+      "objective": "Procura a parte que se repete. Depois, escolhe a forma que falta.",
+      "introduction": "Procura a parte que se repete. Depois, escolhe a forma que falta.",
+      "exercises": [
+        {
+          "prompt": "Que forma continua o padrão?",
+          "choices": [
+            "quadrado",
+            "círculo",
+            "triângulo"
+          ],
+          "answer": 2,
+          "explanation": "A próxima forma é um triângulo.",
+          "visual": {
+            "kind": "shape",
+            "tokens": [
+              "●",
+              "▲",
+              "●",
+              "?"
+            ],
+            "label": "Padrão de formas",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Que forma continua o padrão?",
+          "choices": [
+            "quadrado",
+            "triângulo",
+            "círculo"
+          ],
+          "answer": 2,
+          "explanation": "A próxima forma é um círculo.",
+          "visual": {
+            "kind": "shape",
+            "tokens": [
+              "■",
+              "●",
+              "■",
+              "?"
+            ],
+            "label": "Padrão de formas",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Que forma continua o padrão?",
+          "choices": [
+            "círculo",
+            "triângulo",
+            "quadrado"
+          ],
+          "answer": 2,
+          "explanation": "A próxima forma é um quadrado.",
+          "visual": {
+            "kind": "shape",
+            "tokens": [
+              "▲",
+              "■",
+              "▲",
+              "?"
+            ],
+            "label": "Padrão de formas",
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "prompt": "Que forma continua o padrão?",
+          "choices": [
+            "círculo",
+            "quadrado",
+            "triângulo"
+          ],
+          "answer": 1,
+          "explanation": "A próxima forma é um quadrado.",
+          "visual": {
+            "kind": "shape",
+            "tokens": [
+              "●",
+              "●",
+              "■",
+              "●",
+              "●",
+              "?"
+            ],
+            "label": "Padrão de formas",
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-3-visual-medir",
+      "subject": "math",
+      "level": 3,
+      "title": "Medir com blocos",
+      "objective": "Compara fitas usando blocos do mesmo tamanho. Os blocos não deixam espaços.",
+      "introduction": "Compara fitas usando blocos do mesmo tamanho. Os blocos não deixam espaços.",
+      "exercises": [
+        {
+          "prompt": "Estas fitas usam blocos do mesmo tamanho. Qual é mais comprida?",
+          "choices": [
+            "São iguais",
+            "Fita B",
+            "Fita A"
+          ],
+          "answer": 1,
+          "explanation": "A fita com 5 blocos é mais comprida.",
+          "visual": {
+            "kind": "length",
+            "tokens": [
+              "🟨"
+            ],
+            "label": "Fitas com blocos de igual tamanho",
+            "left": 3,
+            "right": 5
+          }
+        },
+        {
+          "prompt": "Estas fitas usam blocos do mesmo tamanho. Qual é mais comprida?",
+          "choices": [
+            "Fita B",
+            "Fita A",
+            "São iguais"
+          ],
+          "answer": 1,
+          "explanation": "A fita com 7 blocos é mais comprida.",
+          "visual": {
+            "kind": "length",
+            "tokens": [
+              "🟨"
+            ],
+            "label": "Fitas com blocos de igual tamanho",
+            "left": 7,
+            "right": 4
+          }
+        },
+        {
+          "prompt": "Estas fitas usam blocos do mesmo tamanho. Qual é mais comprida?",
+          "choices": [
+            "Fita B",
+            "São iguais",
+            "Fita A"
+          ],
+          "answer": 0,
+          "explanation": "A fita com 9 blocos é mais comprida.",
+          "visual": {
+            "kind": "length",
+            "tokens": [
+              "🟨"
+            ],
+            "label": "Fitas com blocos de igual tamanho",
+            "left": 6,
+            "right": 9
+          }
+        },
+        {
+          "prompt": "Estas fitas usam blocos do mesmo tamanho. Qual é mais comprida?",
+          "choices": [
+            "Fita A",
+            "Fita B",
+            "São iguais"
+          ],
+          "answer": 0,
+          "explanation": "A fita com 10 blocos é mais comprida.",
+          "visual": {
+            "kind": "length",
+            "tokens": [
+              "🟨"
+            ],
+            "label": "Fitas com blocos de igual tamanho",
+            "left": 10,
+            "right": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "mt-3-visual-meticais",
+      "subject": "math",
+      "level": 3,
+      "title": "Contas com meticais",
+      "objective": "Neste desenho, cada moeda representa 1 metical. Junta ou tira as moedas.",
+      "introduction": "Neste desenho, cada moeda representa 1 metical. Junta ou tira as moedas.",
+      "exercises": [
+        {
+          "prompt": "Tens 5 meticais e recebes 2. Com quantos ficas?",
+          "choices": [
+            "6",
+            "8",
+            "7"
+          ],
+          "answer": 2,
+          "explanation": "5 + 2 = 7 meticais.",
+          "visual": {
+            "kind": "addition",
+            "tokens": [
+              "🪙"
+            ],
+            "label": "Cada moeda desenhada representa 1 metical",
+            "left": 5,
+            "right": 2
+          }
+        },
+        {
+          "prompt": "Tens 10 meticais e gastas 3. Com quantos ficas?",
+          "choices": [
+            "8",
+            "7",
+            "6"
+          ],
+          "answer": 1,
+          "explanation": "10 − 3 = 7 meticais.",
+          "visual": {
+            "kind": "subtraction",
+            "tokens": [
+              "🪙"
+            ],
+            "label": "Cada moeda desenhada representa 1 metical",
+            "left": 10,
+            "right": 3
+          }
+        },
+        {
+          "prompt": "Tens 7 meticais e recebes 4. Com quantos ficas?",
+          "choices": [
+            "12",
+            "11",
+            "10"
+          ],
+          "answer": 1,
+          "explanation": "7 + 4 = 11 meticais.",
+          "visual": {
+            "kind": "addition",
+            "tokens": [
+              "🪙"
+            ],
+            "label": "Cada moeda desenhada representa 1 metical",
+            "left": 7,
+            "right": 4
+          }
+        },
+        {
+          "prompt": "Tens 12 meticais e gastas 5. Com quantos ficas?",
+          "choices": [
+            "8",
+            "6",
+            "7"
+          ],
+          "answer": 2,
+          "explanation": "12 − 5 = 7 meticais.",
+          "visual": {
+            "kind": "subtraction",
+            "tokens": [
+              "🪙"
+            ],
+            "label": "Cada moeda desenhada representa 1 metical",
+            "left": 12,
+            "right": 5
+          }
         }
       ]
     }

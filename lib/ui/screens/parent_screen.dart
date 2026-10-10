@@ -173,8 +173,8 @@ class ParentScreen extends StatelessWidget {
                 ),
               ),
             ),
-          const Surface(
-            color: Color(0xFFE7F0F6),
+          Surface(
+            color: const Color(0xFFE7F0F6),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -184,7 +184,7 @@ class ParentScreen extends StatelessWidget {
                 ),
                 SizedBox(height: 12),
                 Text(
-                  '12 lições, 48 desafios e três níveis. O conteúdo introdutório ainda precisa de revisão por educadores em Moçambique.\n\nOs nomes e resultados ficam neste dispositivo. Não há contas online, publicidade ou compras. Se os dados do aplicativo forem apagados ou o aplicativo for desinstalado, o progresso pode perder-se.',
+                  '${controller.curriculum.lessons.length} lições, ${controller.curriculum.lessons.fold<int>(0, (total, lesson) => total + lesson.exercises.length)} desafios e três níveis. O conteúdo introdutório ainda precisa de revisão por educadores em Moçambique.\n\nOs nomes e resultados ficam neste dispositivo. Não há contas online, publicidade ou compras. Se os dados do aplicativo forem apagados ou o aplicativo for desinstalado, o progresso pode perder-se.',
                   style: TextStyle(height: 1.6),
                 ),
               ],

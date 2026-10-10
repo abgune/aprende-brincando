@@ -66,6 +66,30 @@ void main() {
     expect(find.text('Praticar outra vez'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
+  testWidgets('new illustrated counting lesson saves progress', (tester) async {
+    await controller.addProfile('Lina', 6, 0);
+    final lesson = controller.curriculum.lessons.firstWhere(
+      (l) => l.id == 'mt-1-visual-contar1',
+    );
+    await tester.pumpWidget(
+      MaterialApp(
+        theme: appTheme,
+        home: LessonScreen(controller: controller, lesson: lesson),
+      ),
+    );
+    await tapVisible(tester, find.text('Começar os desafios'));
+    for (var index = 0; index < 4; index++) {
+      expect(find.byType(ActivityPicture), findsOneWidget);
+      final exercise = lesson.exercises[index];
+      await tapVisible(tester, find.text(exercise.choices[exercise.answer]));
+      await tapVisible(
+        tester,
+        find.text(index == 3 ? 'Ver resultado' : 'Próximo desafio'),
+      );
+    }
+    expect(controller.progress(lesson.id)!.stars, 3);
+    expect(tester.takeException(), isNull);
+  });
   testWidgets('incorrect answer teaches without giving credit', (tester) async {
     await controller.addProfile('Lina', 6, 0);
     await tester.pumpWidget(
@@ -95,7 +119,7 @@ void main() {
     expect(find.text('Sair da lição?'), findsOneWidget);
     await tapVisible(tester, find.text('Sair'));
     expect(controller.progress('pt-1-vogais'), isNull);
-    expect(find.text('Explorar'), findsNWidgets(2));
+    expect(find.text('Explorar'), findsNWidgets(9));
   });
   testWidgets('parent gate rejects wrong answer and accepts displayed sum', (
     tester,

@@ -1,17 +1,75 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
 
+class ActivityVisual {
+  const ActivityVisual({
+    required this.kind,
+    required this.tokens,
+    required this.label,
+    this.left = 0,
+    this.right = 0,
+  });
+  final String kind, label;
+  final List<String> tokens;
+  final int left, right;
+  factory ActivityVisual.fromJson(Map<String, dynamic> json) {
+    final kind = json['kind'] as String;
+    final tokens = List<String>.from(json['tokens'] as List);
+    final label = json['label'] as String;
+    final left = json['left'] as int? ?? 0, right = json['right'] as int? ?? 0;
+    if (![
+          'picture',
+          'count',
+          'addition',
+          'subtraction',
+          'compare',
+          'sequence',
+          'shape',
+          'length',
+        ].contains(kind) ||
+        tokens.isEmpty ||
+        tokens.length > 8 ||
+        tokens.any((t) => t.trim().isEmpty) ||
+        label.trim().isEmpty ||
+        left < 0 ||
+        left > 20 ||
+        right < 0 ||
+        right > 20 ||
+        (kind == 'subtraction' && right > left) ||
+        (kind == 'addition' && left + right > 20) ||
+        ([
+              'count',
+              'addition',
+              'subtraction',
+              'compare',
+              'length',
+            ].contains(kind) &&
+            left == 0)) {
+      throw const FormatException('Ilustração inválida');
+    }
+    return ActivityVisual(
+      kind: kind,
+      tokens: List.unmodifiable(tokens),
+      label: label,
+      left: left,
+      right: right,
+    );
+  }
+}
+
 class Exercise {
   const Exercise({
     required this.prompt,
     required this.choices,
     required this.answer,
     required this.explanation,
+    this.visual,
   });
   final String prompt;
   final List<String> choices;
   final int answer;
   final String explanation;
+  final ActivityVisual? visual;
 
   factory Exercise.fromJson(Map<String, dynamic> json) {
     final choices = List<String>.from(json['choices'] as List);
@@ -33,6 +91,11 @@ class Exercise {
       choices: List.unmodifiable(choices),
       answer: answer,
       explanation: explanation,
+      visual: json['visual'] == null
+          ? null
+          : ActivityVisual.fromJson(
+              Map<String, dynamic>.from(json['visual'] as Map),
+            ),
     );
   }
 }

@@ -1,7 +1,9 @@
+import 'dart:async';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import '../content/curriculum.dart';
+import '../audio/read_aloud.dart';
 import '../state/learning_controller.dart';
 
 part 'screens/home_screen.dart';
@@ -9,6 +11,7 @@ part 'screens/profile_screen.dart';
 part 'screens/lesson_list_screen.dart';
 part 'screens/lesson_screen.dart';
 part 'screens/stars.dart';
+part 'screens/read_aloud_button.dart';
 part 'screens/learning_visuals.dart';
 part 'screens/parent_screen.dart';
 

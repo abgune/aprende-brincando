@@ -1,4 +1,4 @@
-Current app version: 0.1.1+2. See [visual update and artwork notes](docs/VISUAL_UPDATE.md).
+Current app version: 0.3.0+5. See [the illustrated activities milestone](docs/ILLUSTRATED_ACTIVITIES.md) and [artwork notes](docs/VISUAL_UPDATE.md).
 
 # Aprende Brincando
 
@@ -9,13 +9,13 @@ Build 01 follows the user's selected **complete learning prototype / mixed curri
 ## Included
 
 - Up to eight device-local child profiles with nickname, age and symbol.
-- 12 bundled lessons and 48 exercises, across three freely selectable levels.
+- 50 bundled lessons and 200 illustrated exercises, across three freely selectable levels.
 - Teaching introductions, supportive feedback and repeatable practice.
 - Best results, completion counts, attempts and stars saved per child.
 - Parent overview behind a simple arithmetic gate.
 - No runtime network dependency, online accounts, ads or purchases.
 
-This is a prototype. The curriculum awaits review by Mozambican educators. Emerging readers may need adult help because narration is not included. Clearing app data or uninstalling can erase local progress. The arithmetic gate is not authentication.
+This is a prototype. The curriculum awaits review by Mozambican educators. Read-aloud buttons use an installed offline Portuguese Android voice; see [read-aloud notes](docs/READ_ALOUD.md). Emerging readers may still need adult help. Clearing app data or uninstalling can erase local progress. The arithmetic gate is not authentication.
 
 ## Tooling
 
@@ -107,4 +107,3 @@ flutter test tool/render_previews.dart
 ```
 
 Set `FLUTTER_ROOT` to your SDK path first. This optional renderer loads local Flutter SDK fonts and writes PNG previews; it does not require an Android device.
-
