@@ -268,6 +268,13 @@ class PictureToken extends StatelessWidget {
   final double size;
   @override
   Widget build(BuildContext context) {
+    final objectIcon = switch (token) {
+      'table' => Icons.table_restaurant_rounded,
+      '🪑' => Icons.chair_rounded,
+      '🧳' => Icons.luggage_rounded,
+      _ => null,
+    };
+    if (objectIcon != null) return Icon(objectIcon, color: green, size: size);
     final shape = switch (token) {
       '●' || '🔵' => 'circle',
       '▲' => 'triangle',
