@@ -23,6 +23,8 @@ class _LessonListScreenState extends State<LessonListScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            ScenePicture(subject: widget.subject, height: 150),
+            const SizedBox(height: 16),
             Text(
               widget.subject == 'portuguese'
                   ? 'Uma palavra de cada vez.'
@@ -79,10 +81,7 @@ class _LessonListScreenState extends State<LessonListScreen> {
                         ],
                       ),
                       const SizedBox(height: 12),
-                      Text(
-                        lesson.objective,
-                        style: const TextStyle(height: 1.5),
-                      ),
+                      LessonBadge(lesson: lesson),
                       const SizedBox(height: 12),
                       Row(
                         children: [

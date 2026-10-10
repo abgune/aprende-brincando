@@ -9,12 +9,13 @@ part 'screens/profile_screen.dart';
 part 'screens/lesson_list_screen.dart';
 part 'screens/lesson_screen.dart';
 part 'screens/stars.dart';
+part 'screens/learning_visuals.dart';
 part 'screens/parent_screen.dart';
 
 const ink = Color(0xFF19354B);
 const green = Color(0xFF138777);
 const purple = Color(0xFF7560C4);
-const canvas = Color(0xFFF5F7FB);
+const canvas = Color(0xFFFFF9EE);
 const avatarIcons = [
   Icons.pets_rounded,
   Icons.rocket_launch_rounded,

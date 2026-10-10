@@ -51,6 +51,16 @@ void main() {
       store: MemoryStore(),
     );
     addTearDown(controller.dispose);
+    await tester.pumpWidget(const MaterialApp(home: SizedBox()));
+    await tester.runAsync(() async {
+      final context = tester.element(find.byType(SizedBox).first);
+      for (final asset in ['reading', 'math']) {
+        await precacheImage(
+          ResizeImage(AssetImage('assets/images/$asset.png'), width: 1000),
+          context,
+        );
+      }
+    });
     final boundaryKey = GlobalKey();
     Future<void> capture(String name, Widget screen) async {
       await tester.pumpWidget(
@@ -111,6 +121,12 @@ void main() {
       ).writeAsBytes(data!.buffer.asUint8List());
       image.dispose();
     });
+    await capture(
+      'math-picture',
+      const Scaffold(
+        body: PageBody(child: CountingPicture(count: 5, removed: 2)),
+      ),
+    );
     await capture('parents', ParentScreen(controller: controller));
   });
 }

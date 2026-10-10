@@ -105,72 +105,37 @@ class HomeScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 18),
               ],
-              Container(
-                width: double.infinity,
-                padding: const EdgeInsets.all(26),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(28),
-                  gradient: const LinearGradient(
-                    colors: [Color(0xFF123E52), Color(0xFF157E73)],
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
-                  ),
-                ),
+              Surface(
+                padding: EdgeInsets.zero,
+                color: const Color(0xFFE1F5EB),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Row(
-                      children: [
-                        Icon(
-                          Icons.auto_awesome_rounded,
-                          color: Color(0xFFFFD47D),
-                          size: 28,
-                        ),
-                        SizedBox(width: 10),
-                        Expanded(
-                          child: Text(
-                            'PEQUENOS PASSOS, GRANDES DESCOBERTAS',
-                            style: TextStyle(
-                              color: Colors.white70,
-                              fontSize: 10,
+                    const ScenePicture(subject: 'portuguese', height: 185),
+                    Padding(
+                      padding: const EdgeInsets.all(20),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            profile == null
+                                ? 'Vamos brincar e aprender!'
+                                : 'Qual é a aventura de hoje?',
+                            style: const TextStyle(
+                              fontSize: 25,
                               fontWeight: FontWeight.w800,
                             ),
                           ),
-                        ),
-                      ],
-                    ),
-                    const SizedBox(height: 18),
-                    Text(
-                      profile == null
-                          ? 'Aprender pode ser\numa aventura.'
-                          : 'O que vamos\ndescobrir hoje?',
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 30,
-                        fontWeight: FontWeight.w800,
-                        height: 1.15,
+                          if (profile == null) ...[
+                            const SizedBox(height: 16),
+                            FilledButton(
+                              onPressed: () => openProfiles(context),
+                              child: const Text('Criar o meu perfil'),
+                            ),
+                          ],
+                        ],
                       ),
                     ),
-                    const SizedBox(height: 14),
-                    const Text(
-                      'Ler, contar e experimentar.\nAo teu ritmo, onde estiveres.',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 16,
-                        height: 1.5,
-                      ),
-                    ),
-                    if (profile == null) ...[
-                      const SizedBox(height: 22),
-                      FilledButton(
-                        style: FilledButton.styleFrom(
-                          backgroundColor: const Color(0xFFFFD47D),
-                          foregroundColor: ink,
-                        ),
-                        onPressed: () => openProfiles(context),
-                        child: const Text('Criar o meu perfil'),
-                      ),
-                    ],
                   ],
                 ),
               ),
@@ -287,19 +252,13 @@ class SubjectCard extends StatelessWidget {
       onTap: onTap,
       borderRadius: BorderRadius.circular(26),
       child: Surface(
+        padding: const EdgeInsets.all(16),
         child: Row(
           children: [
-            Container(
-              padding: const EdgeInsets.all(17),
-              decoration: BoxDecoration(
-                color: subjectColor(subject).withValues(alpha: .12),
-                borderRadius: BorderRadius.circular(20),
-              ),
-              child: Icon(
-                subjectIcon(subject),
-                color: subjectColor(subject),
-                size: 32,
-              ),
+            SizedBox(
+              width: 76,
+              height: 94,
+              child: ScenePicture(subject: subject, height: 94),
             ),
             const SizedBox(width: 16),
             Expanded(

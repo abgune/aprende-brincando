@@ -1,3 +1,5 @@
+Current app version: 0.1.1+2. See [visual update and artwork notes](docs/VISUAL_UPDATE.md).
+
 # Aprende Brincando
 
 An offline-first Flutter Android learning prototype for children aged 5–8 in Mozambique. Portuguese reading and maths lessons, local child profiles, quizzes, stars and a parent progress screen.
@@ -105,3 +107,4 @@ flutter test tool/render_previews.dart
 ```
 
 Set `FLUTTER_ROOT` to your SDK path first. This optional renderer loads local Flutter SDK fonts and writes PNG previews; it does not require an Android device.
+

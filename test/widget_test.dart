@@ -120,6 +120,49 @@ void main() {
     await tapVisible(tester, find.text('Entrar'));
     expect(find.text('Acompanhar a aprendizagem'), findsOneWidget);
   });
+  testWidgets('all exercise pictures fit a small phone with large text', (
+    tester,
+  ) async {
+    tester.view.physicalSize = const Size(320, 640);
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
+    for (final lesson in controller.curriculum.lessons) {
+      for (var index = 0; index < lesson.exercises.length; index++) {
+        await tester.pumpWidget(
+          MaterialApp(
+            home: MediaQuery(
+              data: const MediaQueryData(textScaler: TextScaler.linear(1.3)),
+              child: Scaffold(
+                body: PageBody(
+                  child: ExercisePicture(lesson: lesson, index: index),
+                ),
+              ),
+            ),
+          ),
+        );
+        await tester.pumpAndSettle();
+        expect(tester.takeException(), isNull, reason: '${lesson.id}: $index');
+      }
+    }
+  });
+  testWidgets('subtraction pictures match the curriculum quantities', (
+    tester,
+  ) async {
+    final lesson = controller.curriculum.lessons.firstWhere(
+      (l) => l.id == 'mt-2-tirar',
+    );
+    await tester.pumpWidget(
+      MaterialApp(home: ExercisePicture(lesson: lesson, index: 0)),
+    );
+    final picture = tester.widget<CountingPicture>(
+      find.byType(CountingPicture),
+    );
+    expect(picture.count, 5);
+    expect(picture.removed, 2);
+    expect(find.byIcon(Icons.circle), findsNWidgets(5));
+    expect(find.byIcon(Icons.close_rounded), findsNWidgets(2));
+  });
   for (final size in [const Size(320, 640), const Size(800, 1024)]) {
     testWidgets('home and profiles fit $size with larger text', (tester) async {
       tester.view.physicalSize = size;

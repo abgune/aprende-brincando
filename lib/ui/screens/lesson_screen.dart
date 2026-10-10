@@ -95,11 +95,7 @@ class _LessonScreenState extends State<LessonScreen> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Icon(
-                        subjectIcon(lesson.subject),
-                        color: subjectColor(lesson.subject),
-                        size: 52,
-                      ),
+                      ScenePicture(subject: lesson.subject, height: 160),
                       const SizedBox(height: 20),
                       Text(
                         lesson.title,
@@ -227,7 +223,9 @@ class _LessonScreenState extends State<LessonScreen> {
                     height: 1.4,
                   ),
                 ),
-                const SizedBox(height: 24),
+                const SizedBox(height: 16),
+                ExercisePicture(lesson: lesson, index: index),
+                const SizedBox(height: 16),
                 for (var choice = 0; choice < exercise.choices.length; choice++)
                   Padding(
                     padding: const EdgeInsets.only(bottom: 12),
@@ -257,12 +255,19 @@ class _LessonScreenState extends State<LessonScreen> {
                                 selected = choice;
                                 if (choice == exercise.answer) correct++;
                               }),
-                        child: Text(
-                          exercise.choices[choice],
-                          style: const TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600,
-                          ),
+                        child: Row(
+                          children: [
+                            ChoicePicture(label: exercise.choices[choice]),
+                            Expanded(
+                              child: Text(
+                                exercise.choices[choice],
+                                style: const TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.w600,
+                                ),
+                              ),
+                            ),
+                          ],
                         ),
                       ),
                     ),
