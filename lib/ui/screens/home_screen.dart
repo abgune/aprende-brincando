@@ -142,6 +142,44 @@ class HomeScreen extends StatelessWidget {
               const SizedBox(height: 20),
               if (profile != null) ...[
                 Surface(
+                  color: const Color(0xFFFFE9AE),
+                  padding: const EdgeInsets.all(16),
+                  child: Column(
+                    children: [
+                      const Row(
+                        children: [
+                          PiuGuide(size: 62),
+                          SizedBox(width: 12),
+                          Expanded(
+                            child: Text(
+                              'Vamos brincar juntos!',
+                              style: TextStyle(
+                                fontSize: 21,
+                                fontWeight: FontWeight.w800,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      const SizedBox(height: 12),
+                      SizedBox(
+                        width: double.infinity,
+                        child: FilledButton.icon(
+                          icon: const Icon(Icons.sports_esports_rounded),
+                          label: const Text('Brincar e aprender'),
+                          onPressed: () => Navigator.of(context).push(
+                            MaterialPageRoute<void>(
+                              builder: (_) =>
+                                  GamesScreen(controller: controller),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 16),
+                Surface(
                   padding: const EdgeInsets.all(18),
                   child: Row(
                     children: [

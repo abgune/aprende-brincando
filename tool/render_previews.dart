@@ -2,6 +2,7 @@
 import 'dart:io';
 import 'dart:ui' as ui;
 import 'package:aprende_brincando/state/learning_controller.dart';
+import 'package:aprende_brincando/games/mini_games.dart';
 import 'package:aprende_brincando/ui/app.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
@@ -157,6 +158,17 @@ void main() {
         ).writeAsBytes(data!.buffer.asUint8List());
         image.dispose();
       });
+    }
+    await capture('games', GamesScreen(controller: controller));
+    for (final entry in [
+      ('collect-game', MiniGamePack.all[1]),
+      ('word-game', MiniGamePack.all[3]),
+      ('shape-game', MiniGamePack.all.last),
+    ]) {
+      await capture(
+        entry.$1,
+        PlayScreen(controller: controller, pack: entry.$2),
+      );
     }
     await capture('parents', ParentScreen(controller: controller));
   });

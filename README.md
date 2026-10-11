@@ -1,4 +1,4 @@
-Current app version: 0.3.0+5. See [the illustrated activities milestone](docs/ILLUSTRATED_ACTIVITIES.md) and [artwork notes](docs/VISUAL_UPDATE.md).
+Current app version: 0.4.0+6. See [interactive mini-games](docs/MINI_GAMES.md). See [the illustrated activities milestone](docs/ILLUSTRATED_ACTIVITIES.md) and [artwork notes](docs/VISUAL_UPDATE.md).
 
 # Aprende Brincando
 
@@ -11,6 +11,7 @@ Build 01 follows the user's selected **complete learning prototype / mixed curri
 - Up to eight device-local child profiles with nickname, age and symbol.
 - 50 bundled lessons and 200 illustrated exercises, across three freely selectable levels.
 - Teaching introductions, supportive feedback and repeatable practice.
+- Six mini-game adventures: tap to collect, drag/tap syllables, and match shape outlines with Piu the bird guide.
 - Best results, completion counts, attempts and stars saved per child.
 - Parent overview behind a simple arithmetic gate.
 - No runtime network dependency, online accounts, ads or purchases.

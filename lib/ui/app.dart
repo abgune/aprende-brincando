@@ -4,9 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import '../content/curriculum.dart';
 import '../audio/read_aloud.dart';
+import '../games/mini_games.dart';
 import '../state/learning_controller.dart';
 
 part 'screens/home_screen.dart';
+part 'screens/games_screen.dart';
+part 'screens/play_screen.dart';
+part 'screens/play_art.dart';
 part 'screens/profile_screen.dart';
 part 'screens/lesson_list_screen.dart';
 part 'screens/lesson_screen.dart';
@@ -80,8 +84,9 @@ class LearningApp extends StatelessWidget {
 }
 
 class PageBody extends StatelessWidget {
-  const PageBody({super.key, required this.child});
+  const PageBody({super.key, required this.child, this.scrollController});
   final Widget child;
+  final ScrollController? scrollController;
   @override
   Widget build(BuildContext context) => SafeArea(
     child: Align(
@@ -89,6 +94,7 @@ class PageBody extends StatelessWidget {
       child: ConstrainedBox(
         constraints: const BoxConstraints(maxWidth: 840),
         child: SingleChildScrollView(
+          controller: scrollController,
           padding: const EdgeInsets.fromLTRB(20, 12, 20, 32),
           child: child,
         ),
